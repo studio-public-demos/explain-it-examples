@@ -4,7 +4,7 @@
     "product": "Explain It",
     "source": "nebula-curated",
     "last_updated": "2026-09-20",
-    "total_examples": 0,
+    "total_examples": 3,
     "categories": [
       "Science",
       "Engineering",
@@ -17,5 +17,57 @@
       "Education"
     ]
   },
-  "examples": []
+  "examples": [
+    {
+      "slug": "computational-fluid-dynamics",
+      "title": "How Computational Fluid Dynamics Works",
+      "category": "Engineering",
+      "summary": "How CFD simulates fluid flow to solve real engineering problems.",
+      "tags": [
+        "engineering",
+        "simulation",
+        "fluid-dynamics",
+        "physics"
+      ],
+      "level": "Intermediate",
+      "sceneCount": 5,
+      "durationSec": 50,
+      "thumbnail": "thumbnail.svg",
+      "publishedAt": "2026-09-20"
+    },
+    {
+      "slug": "neural-networks",
+      "title": "Training Deep Neural Networks",
+      "category": "AI & Computing",
+      "summary": "The core challenges in training deep neural networks, explained visually.",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "neural-networks",
+        "deep-learning"
+      ],
+      "level": "Intermediate",
+      "sceneCount": 17,
+      "durationSec": 178,
+      "thumbnail": "thumbnail.svg",
+      "publishedAt": "2026-09-20"
+    },
+    {
+      "slug": "compound-interest",
+      "title": "The Power of Compound Interest",
+      "category": "Business & Finance",
+      "summary": "How compound interest grows wealth over time — and why starting early matters.",
+      "tags": [
+        "finance",
+        "investing",
+        "growth",
+        "mathematics"
+      ],
+      "level": "Beginner",
+      "sceneCount": 5,
+      "durationSec": 56,
+      "thumbnail": "thumbnail.svg",
+      "publishedAt": "2026-09-20"
+    }
+  ]
 }

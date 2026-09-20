@@ -172,9 +172,16 @@ function goto(i, autoplay){
   $('sceneTitle').textContent = sc.title || ('Scene ' + (idx+1));
   $('sceneCounter').textContent = 'Scene ' + (idx+1) + ' of ' + scenes.length;
   $('narration').textContent = sc.narration || '';
-  // Tell the deck iframe to show this scene (deck listens for postMessage; also has own timer).
-  try{ $('deckFrame').contentWindow.postMessage({type:'deck:goToScene', scene:idx}, '*'); }catch(e){}
-  // Audio
+  // Canonical deck protocol: hold the deck's own timer and drive scene changes explicitly.
+  try{
+    $('deckFrame').contentWindow.postMessage({type:'deck:command', action:'holdTimer'}, '*');
+    $('deckFrame').contentWindow.postMessage({type:'deck:command', action:'goTo', payload: idx+1}, '*');
+  }catch(e){}
+  playSceneAudio(sc, autoplay);
+  scheduleAdvance(sc);
+}
+
+function playSceneAudio(sc, autoplay){
   stopAudio();
   const src = currentAudioSrc(base(), sc);
   if(src && !muted){
@@ -182,7 +189,6 @@ function goto(i, autoplay){
     audio.currentTime = 0;
     if(autoplay || playing){ audio.play().catch(()=>{}); }
   }
-  scheduleAdvance(sc);
 }
 
 function base(){ return 'decks/' + slug + '/'; }
@@ -200,7 +206,8 @@ function scheduleAdvance(sc){
   }
 }
 
-function play(){ playing = true; $('play').innerHTML = ICON_PAUSE; if(audio.src && !muted) audio.play().catch(()=>{}); scheduleAdvance(scenes[idx]); }
+function postDeck(action, payload){ try{ $('deckFrame').contentWindow.postMessage({type:'deck:command', action, payload}, '*'); }catch(e){} }
+function play(){ playing = true; $('play').innerHTML = ICON_PAUSE; postDeck('holdTimer'); if(audio.src && !muted) audio.play().catch(()=>{}); scheduleAdvance(scenes[idx]); }
 function pause(){ playing = false; $('play').innerHTML = ICON_PLAY; audio.pause(); clearTimeout(sceneTimer); }
 function stop(){ pause(); }
 function stopAudio(){ try{ audio.pause(); audio.onended=null; }catch(e){} }

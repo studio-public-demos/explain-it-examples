@@ -1,0 +1,142 @@
+{
+  "slug": "neural-networks",
+  "title": "Training Deep Neural Networks",
+  "category": "AI & Computing",
+  "summary": "The core challenges in training deep neural networks, explained visually.",
+  "tags": [
+    "ai",
+    "machine-learning",
+    "neural-networks",
+    "deep-learning"
+  ],
+  "level": "Intermediate",
+  "sceneCount": 17,
+  "durationSec": 178,
+  "thumbnail": "thumbnail.svg",
+  "deckHtmlPath": "deck-content.html",
+  "scenes": [
+    {
+      "index": 0,
+      "title": "The Deep Learning Training Gauntlet",
+      "narration": "Training <b>deep neural networks</b> is a complex task, often likened to navigating a gauntlet of technical hurdles that can significantly impede model performance and development.",
+      "durationSec": 8,
+      "audioPath": "audio/scene-0.mp3"
+    },
+    {
+      "index": 1,
+      "title": "Vanishing & Exploding Gradients",
+      "narration": "A core challenge is <b>vanishing or exploding gradients</b>, where error signals either shrink to insignificance or grow uncontrollably during backpropagation, preventing effective learning.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
+    },
+    {
+      "index": 2,
+      "title": "The Overfitting Trap",
+      "narration": "<b>Overfitting</b> occurs when a model learns the training data too well, including noise, leading to excellent performance on seen data but poor generalization to new, unseen data.",
+      "durationSec": 10,
+      "audioPath": "audio/scene-2.mp3"
+    },
+    {
+      "index": 3,
+      "title": "High Computational Cost",
+      "narration": "Deep learning models demand immense <b>computational resources</b>, requiring powerful GPUs and significant energy, making training expensive and time-consuming, especially for large datasets.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-3.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Hyperparameter Tuning Maze",
+      "narration": "Finding the optimal set of <b>hyperparameters</b> (e.g., learning rate, batch size) is a trial-and-error process, significantly impacting model performance and requiring extensive experimentation.",
+      "durationSec": 10,
+      "audioPath": "audio/scene-4.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Interpretability: The Black Box",
+      "narration": "Deep neural networks are often <b>black boxes</b>; understanding why they make specific predictions is difficult, posing challenges for debugging, trust, and regulatory compliance.",
+      "durationSec": 10,
+      "audioPath": "audio/scene-5.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Data Scarcity & Quality",
+      "narration": "Deep learning models are <b>data-hungry</b>; insufficient or poor-quality data can lead to suboptimal performance, requiring extensive data collection, augmentation, and cleaning efforts.",
+      "durationSec": 10,
+      "audioPath": "audio/scene-6.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Local Minima & Saddle Points",
+      "narration": "During optimization, models can get stuck in <b>local minima</b> or <b>saddle points</b>, where gradients are zero, preventing further improvement towards the global optimum.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-7.mp3"
+    },
+    {
+      "index": 8,
+      "title": "Model Architecture Design",
+      "narration": "Designing an effective <b>model architecture</b> is crucial; too simple, and it underfits; too complex, and it overfits or becomes computationally intractable, requiring expert intuition.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-8.mp3"
+    },
+    {
+      "index": 9,
+      "title": "Robustness & Adversarial Attacks",
+      "narration": "Deep models can be surprisingly fragile; small, imperceptible perturbations to inputs (<b>adversarial attacks</b>) can cause drastic misclassifications, raising concerns for security-critical applications.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-9.mp3"
+    },
+    {
+      "index": 10,
+      "title": "Transfer Learning: A Partial Solution",
+      "narration": "<b>Transfer learning</b> mitigates data scarcity and computational costs by fine-tuning pre-trained models on new, smaller datasets, but it's not always optimal for highly specialized tasks.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-10.mp3"
+    },
+    {
+      "index": 11,
+      "title": "Ethical Concerns & Bias",
+      "narration": "Models can inherit and amplify <b>biases</b> present in training data, leading to unfair or discriminatory outcomes, which is a critical ethical challenge in real-world deployments.",
+      "durationSec": 10,
+      "audioPath": "audio/scene-11.mp3"
+    },
+    {
+      "index": 12,
+      "title": "Scalability for Deployment",
+      "narration": "Deploying large models efficiently is challenging; <b>inference latency</b> and memory footprints must be optimized for real-time applications, often requiring model compression techniques.",
+      "durationSec": 10,
+      "audioPath": "audio/scene-12.mp3"
+    },
+    {
+      "index": 13,
+      "title": "Reproducibility Crisis",
+      "narration": "Achieving <b>reproducibility</b> in deep learning is difficult due to randomness in initialization, data shuffling, and hardware differences, making research validation and deployment challenging.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-13.mp3"
+    },
+    {
+      "index": 14,
+      "title": "Continuous Learning & Adaptation",
+      "narration": "Models often degrade over time (<b>concept drift</b>) as real-world data distributions change, necessitating continuous retraining and adaptation, which adds to operational complexity and cost.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-14.mp3"
+    },
+    {
+      "index": 15,
+      "title": "The Road Ahead: Research & Solutions",
+      "narration": "Addressing these challenges drives ongoing research into new architectures, optimization algorithms, and interpretability methods, pushing the boundaries of what <b>deep learning</b> can achieve.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-15.mp3"
+    },
+    {
+      "index": 16,
+      "title": "Summary of Key Obstacles",
+      "narration": "Overcoming <b>vanishing/exploding gradients</b>, <b>overfitting</b>, high computational costs, and the 'black box' nature of models are central to advancing deep learning capabilities.",
+      "durationSec": 10,
+      "audioPath": "audio/scene-16.mp3"
+    }
+  ],
+  "quiz": [],
+  "publishedAt": "2026-09-20",
+  "source": "nebula-curated",
+  "publicMetadataOnly": true
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "compound-interest",
+  "title": "The Power of Compound Interest",
+  "category": "Business & Finance",
+  "summary": "How compound interest grows wealth over time — and why starting early matters.",
+  "tags": [
+    "finance",
+    "investing",
+    "growth",
+    "mathematics"
+  ],
+  "level": "Beginner",
+  "sceneCount": 5,
+  "durationSec": 56,
+  "thumbnail": "thumbnail.svg",
+  "deckHtmlPath": "deck-content.html",
+  "scenes": [
+    {
+      "index": 0,
+      "title": "The Magic of Compound Interest",
+      "narration": "Compound interest is when your <b>earnings</b> start earning money too, creating a powerful snowball effect. It's often called 'interest on interest' and can turn small savings into substantial wealth over time.",
+      "durationSec": 10,
+      "audioPath": "audio/scene-0.mp3"
+    },
+    {
+      "index": 1,
+      "title": "Simple vs. Compound: The Key Difference",
+      "narration": "Unlike <b>simple interest</b>, which only calculates returns on the initial principal, <b>compound interest</b> adds earned interest back to the principal. This means your investment base continuously grows, accelerating wealth accumulation.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
+    },
+    {
+      "index": 2,
+      "title": "The Compounding Formula",
+      "narration": "The formula A = P(1 + r/n)^(nt) shows how <b>principal (P)</b>, <b>rate (r)</b>, <b>time (t)</b>, and <b>compounding frequency (n)</b> determine the final amount (A). The more frequent the compounding, the faster your money grows.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-2.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Real-World Impact: Retirement Savings",
+      "narration": "A common application is <b>retirement savings</b>, where early investments benefit significantly from compounding. For example, $10,000 invested at 7% annual interest for 30 years could grow to over $76,000, illustrating the power of time.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-3.mp3"
+    },
+    {
+      "index": 4,
+      "title": "The Eighth Wonder of the World",
+      "narration": "Albert Einstein famously called compound interest the 'eighth wonder of the world' due to its ability to generate significant wealth over <b>long periods</b>. Understanding this principle is crucial for making informed financial decisions and achieving financial goals.",
+      "durationSec": 10,
+      "audioPath": "audio/scene-4.mp3"
+    }
+  ],
+  "quiz": [],
+  "publishedAt": "2026-09-20",
+  "source": "nebula-curated",
+  "publicMetadataOnly": true
+}
