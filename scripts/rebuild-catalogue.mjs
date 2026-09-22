@@ -43,6 +43,7 @@ async function main() {
         durationSec: m.durationSec || 0,
         thumbnail: m.thumbnail || 'thumbnail.svg',
         featured: m.featured === true,
+        hasAudio: Array.isArray(m.scenes) && m.scenes.some(s => s && s.audioPath),
         publishedAt: m.publishedAt || null,
       });
     }

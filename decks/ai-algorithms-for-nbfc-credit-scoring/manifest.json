@@ -1,0 +1,124 @@
+{
+  "slug": "ai-algorithms-for-nbfc-credit-scoring",
+  "title": "AI Algorithms for NBFC Credit Scoring",
+  "category": "AI & Computing",
+  "summary": "The NBFC Credit Challenge",
+  "tags": [],
+  "level": "Intermediate",
+  "sceneCount": 15,
+  "durationSec": 150,
+  "thumbnail": "thumbnail.svg",
+  "deckHtmlPath": "deck-content.html",
+  "scenes": [
+    {
+      "index": 0,
+      "title": "Scene 1",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 1,
+      "title": "Scene 2",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 2,
+      "title": "Scene 3",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 3,
+      "title": "Scene 4",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 4,
+      "title": "Scene 5",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 5,
+      "title": "Scene 6",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 6,
+      "title": "Scene 7",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 7,
+      "title": "Scene 8",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 8,
+      "title": "Scene 9",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 9,
+      "title": "Scene 10",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 10,
+      "title": "Scene 11",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 11,
+      "title": "Scene 12",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 12,
+      "title": "Scene 13",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 13,
+      "title": "Scene 14",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 14,
+      "title": "Scene 15",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    }
+  ],
+  "quiz": [],
+  "featured": false,
+  "publishedAt": "2026-09-18",
+  "source": "nebula-curated",
+  "publicMetadataOnly": true
+}

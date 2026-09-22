@@ -1,0 +1,54 @@
+{
+  "slug": "how-computational-fluid-dynamics-cfd-works",
+  "title": "How Computational Fluid Dynamics (CFD) Works",
+  "category": "Engineering",
+  "summary": "Computational Fluid Dynamics (CFD)",
+  "tags": [],
+  "level": "Intermediate",
+  "sceneCount": 5,
+  "durationSec": 50,
+  "thumbnail": "thumbnail.svg",
+  "deckHtmlPath": "deck-content.html",
+  "scenes": [
+    {
+      "index": 0,
+      "title": "Scene 1",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 1,
+      "title": "Scene 2",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 2,
+      "title": "Scene 3",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 3,
+      "title": "Scene 4",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 4,
+      "title": "Scene 5",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    }
+  ],
+  "quiz": [],
+  "featured": true,
+  "publishedAt": "2026-09-21",
+  "source": "nebula-curated",
+  "publicMetadataOnly": true
+}

@@ -23,7 +23,8 @@ const REPO_ROOT = join(__dirname, '..');
 const DECKS_DIR = join(REPO_ROOT, 'decks');
 const CANONICAL_CATEGORIES = [
   'Science', 'Engineering', 'Mathematics', 'AI & Computing', 'Earth & Geospatial',
-  'Business & Finance', 'Biology & Life Sciences', 'Everyday Concepts', 'Education'
+  'Business & Finance', 'Biology & Life Sciences', 'Technology', 'Education',
+  'Everyday Concepts', 'Other'
 ];
 
 // Forbidden substrings scanned across manifest.json + deck-content.html

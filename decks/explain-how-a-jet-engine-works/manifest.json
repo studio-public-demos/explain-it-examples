@@ -1,0 +1,54 @@
+{
+  "slug": "explain-how-a-jet-engine-works",
+  "title": "Explain how a jet engine works",
+  "category": "Engineering",
+  "summary": "Jet Engine: Thrust by Reaction",
+  "tags": [],
+  "level": "Intermediate",
+  "sceneCount": 5,
+  "durationSec": 50,
+  "thumbnail": "thumbnail.svg",
+  "deckHtmlPath": "deck-content.html",
+  "scenes": [
+    {
+      "index": 0,
+      "title": "Scene 1",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 1,
+      "title": "Scene 2",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 2,
+      "title": "Scene 3",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 3,
+      "title": "Scene 4",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 4,
+      "title": "Scene 5",
+      "narration": "",
+      "durationSec": 10,
+      "audioPath": null
+    }
+  ],
+  "quiz": [],
+  "featured": false,
+  "publishedAt": "2026-09-20",
+  "source": "nebula-curated",
+  "publicMetadataOnly": true
+}
