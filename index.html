@@ -196,12 +196,12 @@ let activeCat = 'All';
 let query = '';
 
 function fmtDuration(sec){ if(!sec) return ''; const m=Math.floor(sec/60),s=sec%60; return m+':'+String(s).padStart(2,'0'); }
-function deckUrl(item){ return 'deck.html?slug=' + encodeURIComponent(item.slug); }
+// Every card links to the canonical Studio share page (the real deck + real DeckRenderer).
+function deckUrl(item){ return item.shareUrl || '#'; }
 function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 
 function cardHtml(item){
   const dur = item.durationSec ? '<span class="dur">'+fmtDuration(item.durationSec)+'</span>' : '';
-  // Lightweight lazy-loaded thumbnail (SVG). The full deck iframe loads only on open (deck.html).
   const thumb = item.thumbnail
     ? '<img class="thumb-img" src="decks/'+encodeURIComponent(item.slug)+'/'+esc(item.thumbnail)+'" alt="" loading="lazy" onerror="this.style.display=\'none\';this.parentNode.querySelector(\'.fallback\').style.display=\'flex\'">'
     : '';
@@ -209,13 +209,12 @@ function cardHtml(item){
   const play = '<span class="play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>';
   const level = item.level ? '<span class="chip level">'+esc(item.level)+'</span>' : '';
   const scenes = item.sceneCount ? '<span class="chip">'+item.sceneCount+' scenes</span>' : '';
-  const audio = item.hasAudio ? '<span class="chip audio">🔊 Narrated</span>' : '<span class="chip">📝 Narration</span>';
-  return '<a class="card" href="'+deckUrl(item)+'">'
+  return '<a class="card" href="'+esc(deckUrl(item))+'" target="_blank" rel="noopener">'
     + '<div class="thumb">'+thumb+fallback+play+dur+'</div>'
     + '<div class="body"><div class="cat-label">'+esc(item.category)+'</div>'
     + '<h3>'+esc(item.title)+'</h3>'
     + '<p class="desc">'+esc(item.summary||'')+'</p>'
-    + '<div class="meta">'+level+scenes+audio+'</div></div></a>';
+    + '<div class="meta">'+level+scenes+'</div></div></a>';
 }
 
 function render(){

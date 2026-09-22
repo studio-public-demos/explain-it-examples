@@ -74,13 +74,17 @@ async function validateDeck(slug) {
     err(slug, `non-canonical category "${manifest.category}"`);
   }
 
-  // Deck content exists + no API calls
+  // Decks are presented via the canonical Studio share page (shareUrl). A local
+  // deck-content.html is optional; if present, it must not call the backend API or leak secrets.
   const deckPath = join(dir, manifest.deckHtmlPath || 'deck-content.html');
-  if (!existsSync(deckPath)) { err(slug, `deck content "${manifest.deckHtmlPath}" missing`); }
-  else {
+  if (existsSync(deckPath)) {
     const deckHtml = await readFile(deckPath, 'utf8');
     for (const p of API_CALL_PATTERNS) if (p.re.test(deckHtml)) err(slug, `deck-content.html references ${p.label}`);
     for (const p of FORBIDDEN_PATTERNS) if (p.re.test(deckHtml)) err(slug, `deck-content.html leaks ${p.label}`);
+  }
+  // Require a canonical share URL for presentation.
+  if (!manifest.shareUrl || !/^https:\/\/app\.nebulacloud\.studio\/share\//.test(manifest.shareUrl)) {
+    err(slug, 'missing/invalid shareUrl (must be a canonical Studio /share/ link)');
   }
 
   // Scenes + audio: local files only
