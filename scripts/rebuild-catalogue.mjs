@@ -42,6 +42,7 @@ async function main() {
         sceneCount: m.sceneCount || (m.scenes ? m.scenes.length : 0),
         durationSec: m.durationSec || 0,
         thumbnail: m.thumbnail || 'thumbnail.svg',
+        featured: m.featured === true,
         publishedAt: m.publishedAt || null,
       });
     }

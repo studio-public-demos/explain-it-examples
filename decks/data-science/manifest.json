@@ -1,0 +1,59 @@
+{
+  "slug": "data-science",
+  "title": "Data Science",
+  "category": "AI & Computing",
+  "summary": "How data science turns raw information into insight and discovery.",
+  "tags": [
+    "data-science",
+    "analytics",
+    "statistics",
+    "ai"
+  ],
+  "level": "Beginner",
+  "sceneCount": 5,
+  "durationSec": 50,
+  "thumbnail": "thumbnail.svg",
+  "deckHtmlPath": "deck-content.html",
+  "scenes": [
+    {
+      "index": 0,
+      "title": "Super Detectives of Information",
+      "narration": "Data science is like being a <b>super detective</b> for information! We collect clues from all around the 🌍 world to solve big mysteries and help us understand things better.",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 1,
+      "title": "Collecting Clues (Data)",
+      "narration": "Imagine you're counting all your red 🍎 apples. Each count is a <b>piece of data</b>, a clue! Data scientists gather millions of these clues, like how many people like bananas or how tall trees grow.",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 2,
+      "title": "Sorting & Finding Patterns",
+      "narration": "Once we have clues, we use special 💻 computers and 🧮 math to sort them super fast. This helps us <b>find patterns</b>, like noticing that most kids love playing with building blocks!",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 3,
+      "title": "Making Smart Choices",
+      "narration": "If you watch lots of superhero 🍿 movies, data science helps your TV 📺 recommend more superhero shows you'll 👍 like! It uses what you enjoyed before to guess what's next.",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 4,
+      "title": "Building a Better World",
+      "narration": "By understanding patterns, data science helps grown-ups make <b>smart decisions</b>, like building safer roads or designing new toys kids will love. It helps us make our 🌎 world a better place!",
+      "durationSec": 10,
+      "audioPath": null
+    }
+  ],
+  "quiz": [],
+  "publishedAt": "2026-09-22",
+  "source": "nebula-curated",
+  "publicMetadataOnly": true,
+  "featured": true
+}

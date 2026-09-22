@@ -1,0 +1,59 @@
+{
+  "slug": "satellite-remote-sensing",
+  "title": "Satellite Remote Sensing",
+  "category": "Earth & Geospatial",
+  "summary": "How satellites observe Earth and power climate and mapping research.",
+  "tags": [
+    "remote-sensing",
+    "satellites",
+    "gis",
+    "earth-observation"
+  ],
+  "level": "Intermediate",
+  "sceneCount": 5,
+  "durationSec": 50,
+  "thumbnail": "thumbnail.svg",
+  "deckHtmlPath": "deck-content.html",
+  "scenes": [
+    {
+      "index": 0,
+      "title": "Eyes in the Sky: Remote Sensing Basics",
+      "narration": "<b>Remote sensing</b> captures data about Earth's surface without physical contact, often from satellites or aircraft. These 'eyes in the sky' collect electromagnetic radiation, revealing details invisible to the naked eye, like vegetation health or temperature shifts.",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 1,
+      "title": "GIS: Mapping Data to Location",
+      "narration": "<b>Geographic Information Systems (GIS)</b> integrate, analyze, and visualize spatial data, turning raw information into interactive maps. It's like a digital atlas that understands where things are and how they relate, revealing patterns and trends.",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 2,
+      "title": "From Pixels to Insights: Data Flow",
+      "narration": "Remote sensing <b>captures raw data</b> (pixels), which GIS then processes into meaningful layers. For instance, satellite images of a forest become layers showing tree density, species, or deforestation rates, enabling detailed environmental monitoring.",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 3,
+      "title": "Urban Planning with Geospatial Tech",
+      "narration": "Remote sensing and GIS are crucial for <b>urban planning</b>. Satellite imagery identifies land use changes, while GIS layers population density, infrastructure, and environmental data. This helps planners optimize city growth, manage resources, and predict future needs.",
+      "durationSec": 10,
+      "audioPath": null
+    },
+    {
+      "index": 4,
+      "title": "A Powerful Duo for a Smarter World",
+      "narration": "Together, remote sensing and GIS form a <b>powerful duo</b>, enabling us to monitor environmental changes, manage natural resources, and respond to disasters more effectively. This geospatial intelligence is vital for a sustainable and informed future.",
+      "durationSec": 10,
+      "audioPath": null
+    }
+  ],
+  "quiz": [],
+  "publishedAt": "2026-09-22",
+  "source": "nebula-curated",
+  "publicMetadataOnly": true,
+  "featured": true
+}

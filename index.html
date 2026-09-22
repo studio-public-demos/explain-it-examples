@@ -174,9 +174,21 @@ function render(){
   });
   if(items.length === 0){ content.innerHTML=''; empty.style.display='block'; return; }
   empty.style.display='none';
+  let html = '';
+  // Featured section first (only when browsing All with no active search)
+  if(activeCat === 'All' && !q){
+    const feat = items.filter(it => it.featured);
+    if(feat.length){
+      html += '<section class="cat-section"><h2>Featured <span class="count">'+feat.length+'</span></h2>'
+        + '<p class="cat-sub">Hand-picked explanations that showcase Explain It at its best.</p>'
+        + '<div class="grid">'+feat.map(cardHtml).join('')+'</div></section>';
+    }
+    // Explore All: everything, grouped by category
+    html += '<section class="cat-section" style="margin-top:8px"><h2>Explore All <span class="count">'+items.length+'</span></h2>'
+      + '<p class="cat-sub">The full curated library across every discipline.</p></section>';
+  }
   // Group by category, preserving canonical order
   const cats = activeCat === 'All' ? CATEGORIES : [activeCat];
-  let html = '';
   for(const cat of cats){
     const inCat = items.filter(it => it.category === cat);
     if(inCat.length === 0) continue;

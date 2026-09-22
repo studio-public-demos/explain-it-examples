@@ -3,8 +3,8 @@
     "version": "1.0",
     "product": "Explain It",
     "source": "nebula-curated",
-    "last_updated": "2026-09-20",
-    "total_examples": 3,
+    "last_updated": "2026-09-22",
+    "total_examples": 10,
     "categories": [
       "Science",
       "Engineering",
@@ -18,6 +18,60 @@
     ]
   },
   "examples": [
+    {
+      "slug": "big-bang",
+      "title": "The Big Bang & Cosmic Origins",
+      "category": "Science",
+      "summary": "Journey through cosmology to understand the origins of the universe.",
+      "tags": [
+        "cosmology",
+        "physics",
+        "astronomy",
+        "universe"
+      ],
+      "level": "Intermediate",
+      "sceneCount": 12,
+      "durationSec": 120,
+      "thumbnail": "thumbnail.svg",
+      "featured": true,
+      "publishedAt": "2026-09-22"
+    },
+    {
+      "slug": "airflow-aerospace",
+      "title": "Airflow Simulation in Aerospace",
+      "category": "Engineering",
+      "summary": "Visualizing invisible airflow to design faster, safer aircraft.",
+      "tags": [
+        "aerospace",
+        "aerodynamics",
+        "simulation",
+        "engineering"
+      ],
+      "level": "Intermediate",
+      "sceneCount": 5,
+      "durationSec": 50,
+      "thumbnail": "thumbnail.svg",
+      "featured": false,
+      "publishedAt": "2026-09-22"
+    },
+    {
+      "slug": "civil-engineering",
+      "title": "Civil Engineering Fundamentals",
+      "category": "Engineering",
+      "summary": "The principles behind designing and building modern infrastructure.",
+      "tags": [
+        "engineering",
+        "infrastructure",
+        "construction",
+        "structures"
+      ],
+      "level": "Beginner",
+      "sceneCount": 5,
+      "durationSec": 50,
+      "thumbnail": "thumbnail.svg",
+      "featured": false,
+      "publishedAt": "2026-09-22"
+    },
     {
       "slug": "computational-fluid-dynamics",
       "title": "How Computational Fluid Dynamics Works",
@@ -33,7 +87,26 @@
       "sceneCount": 5,
       "durationSec": 50,
       "thumbnail": "thumbnail.svg",
+      "featured": true,
       "publishedAt": "2026-09-20"
+    },
+    {
+      "slug": "data-science",
+      "title": "Data Science",
+      "category": "AI & Computing",
+      "summary": "How data science turns raw information into insight and discovery.",
+      "tags": [
+        "data-science",
+        "analytics",
+        "statistics",
+        "ai"
+      ],
+      "level": "Beginner",
+      "sceneCount": 5,
+      "durationSec": 50,
+      "thumbnail": "thumbnail.svg",
+      "featured": true,
+      "publishedAt": "2026-09-22"
     },
     {
       "slug": "neural-networks",
@@ -50,7 +123,62 @@
       "sceneCount": 17,
       "durationSec": 178,
       "thumbnail": "thumbnail.svg",
+      "featured": false,
       "publishedAt": "2026-09-20"
+    },
+    {
+      "slug": "photogrammetry",
+      "title": "Photogrammetry & 3D Reconstruction",
+      "category": "Earth & Geospatial",
+      "summary": "How ordinary photographs are converted into precise 3D models.",
+      "tags": [
+        "photogrammetry",
+        "3d",
+        "mapping",
+        "geospatial"
+      ],
+      "level": "Intermediate",
+      "sceneCount": 5,
+      "durationSec": 50,
+      "thumbnail": "thumbnail.svg",
+      "featured": true,
+      "publishedAt": "2026-09-22"
+    },
+    {
+      "slug": "plate-tectonics",
+      "title": "Plate Tectonics & Volcanic Activity",
+      "category": "Earth & Geospatial",
+      "summary": "How plate tectonics drives volcanic activity and continental drift.",
+      "tags": [
+        "geology",
+        "earth-science",
+        "volcanoes",
+        "plate-tectonics"
+      ],
+      "level": "Intermediate",
+      "sceneCount": 13,
+      "durationSec": 130,
+      "thumbnail": "thumbnail.svg",
+      "featured": true,
+      "publishedAt": "2026-09-22"
+    },
+    {
+      "slug": "satellite-remote-sensing",
+      "title": "Satellite Remote Sensing",
+      "category": "Earth & Geospatial",
+      "summary": "How satellites observe Earth and power climate and mapping research.",
+      "tags": [
+        "remote-sensing",
+        "satellites",
+        "gis",
+        "earth-observation"
+      ],
+      "level": "Intermediate",
+      "sceneCount": 5,
+      "durationSec": 50,
+      "thumbnail": "thumbnail.svg",
+      "featured": true,
+      "publishedAt": "2026-09-22"
     },
     {
       "slug": "compound-interest",
@@ -67,6 +195,7 @@
       "sceneCount": 5,
       "durationSec": 56,
       "thumbnail": "thumbnail.svg",
+      "featured": false,
       "publishedAt": "2026-09-20"
     }
   ]
