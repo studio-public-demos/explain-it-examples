@@ -270,7 +270,11 @@ async function init(){
     const r = await fetch(CATALOGUE_URL, {cache:'no-cache'});
     if(!r.ok) throw new Error('catalogue '+r.status);
     const data = await r.json();
-    ALL = Array.isArray(data.examples) ? data.examples : (Array.isArray(data.demos) ? data.demos : []);
+    const all = Array.isArray(data.examples) ? data.examples : (Array.isArray(data.demos) ? data.demos : []);
+    // Launch curation: only show LISTED decks (listed !== false). Unlisted entries
+    // remain in catalogue.json with their shareUrl intact — direct share links still
+    // resolve; they are simply hidden from the Explore grid until re-narrated.
+    ALL = all.filter(it => it.listed !== false);
   }catch(e){
     ALL = [];
   }

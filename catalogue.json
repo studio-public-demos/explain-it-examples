@@ -18,7 +18,9 @@
       "Everyday Concepts",
       "Other"
     ],
-    "viewer": "canonical-share"
+    "viewer": "canonical-share",
+    "listed_examples": 18,
+    "unlisted_examples": 36
   },
   "examples": [
     {
@@ -35,7 +37,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/tcIshMxmJeBK",
       "publishedAt": "2026-09-22",
-      "createdAt": "2026-09-22"
+      "createdAt": "2026-09-22",
+      "listed": true
     },
     {
       "slug": "how-computational-fluid-dynamics-cfd-works",
@@ -51,7 +54,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/AIplWhxfykCC",
       "publishedAt": "2026-09-21",
-      "createdAt": "2026-09-21"
+      "createdAt": "2026-09-21",
+      "listed": true
     },
     {
       "slug": "why-seasons-change-earth-s-tilted-orbit-explained",
@@ -67,7 +71,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/XBr3YcOmb4p5",
       "publishedAt": "2026-09-21",
-      "createdAt": "2026-09-21"
+      "createdAt": "2026-09-21",
+      "listed": true
     },
     {
       "slug": "challenges-in-training-deep-neural-networks",
@@ -83,7 +88,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/KUdrb9MOTA_k",
       "publishedAt": "2026-09-20",
-      "createdAt": "2026-09-20"
+      "createdAt": "2026-09-20",
+      "listed": true
     },
     {
       "slug": "explain-compound-interest",
@@ -95,11 +101,12 @@
       "sceneCount": 5,
       "durationSec": 50,
       "thumbnail": "thumbnail.svg",
-      "featured": true,
+      "featured": false,
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/W5pV36sqQ6HP",
       "publishedAt": "2026-09-20",
-      "createdAt": "2026-09-20"
+      "createdAt": "2026-09-20",
+      "listed": false
     },
     {
       "slug": "cybersecurity-implications-of-scada-ai-integration",
@@ -111,11 +118,12 @@
       "sceneCount": 13,
       "durationSec": 130,
       "thumbnail": "thumbnail.svg",
-      "featured": true,
+      "featured": false,
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/F3Dn7rMJ3tQl",
       "publishedAt": "2026-09-19",
-      "createdAt": "2026-09-19"
+      "createdAt": "2026-09-19",
+      "listed": false
     },
     {
       "slug": "plate-tectonics-and-volcanic-activity-earth-s-dynamic-relati",
@@ -131,7 +139,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/nY-LsZxAKibv",
       "publishedAt": "2026-07-16",
-      "createdAt": "2026-07-16"
+      "createdAt": "2026-07-16",
+      "listed": true
     },
     {
       "slug": "the-body-s-final-journey-what-happens-after-death",
@@ -143,11 +152,12 @@
       "sceneCount": 12,
       "durationSec": 120,
       "thumbnail": "thumbnail.svg",
-      "featured": true,
+      "featured": false,
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/zoDAzk7104c1",
       "publishedAt": "2026-07-09",
-      "createdAt": "2026-07-09"
+      "createdAt": "2026-07-09",
+      "listed": false
     },
     {
       "slug": "ai-chatbots-vs-human-csrs-can-ai-fully-replace-human-custome",
@@ -159,11 +169,12 @@
       "sceneCount": 12,
       "durationSec": 120,
       "thumbnail": "thumbnail.svg",
-      "featured": false,
+      "featured": true,
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/UmuxS0oCv4qg",
       "publishedAt": "2026-09-22",
-      "createdAt": "2026-09-22"
+      "createdAt": "2026-09-22",
+      "listed": true
     },
     {
       "slug": "explain-how-a-jet-engine-works",
@@ -179,7 +190,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/4rlddZE7ze2y",
       "publishedAt": "2026-09-20",
-      "createdAt": "2026-09-20"
+      "createdAt": "2026-09-20",
+      "listed": false
     },
     {
       "slug": "exploring-neural-network-architectures",
@@ -191,11 +203,12 @@
       "sceneCount": 9,
       "durationSec": 90,
       "thumbnail": "thumbnail.svg",
-      "featured": false,
+      "featured": true,
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/q3UGyteAF4YW",
       "publishedAt": "2026-09-20",
-      "createdAt": "2026-09-20"
+      "createdAt": "2026-09-20",
+      "listed": true
     },
     {
       "slug": "photosynthesis-capturing-sunlight-s-energy",
@@ -211,7 +224,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/1LFo7mnTdE0u",
       "publishedAt": "2026-09-20",
-      "createdAt": "2026-09-20"
+      "createdAt": "2026-09-20",
+      "listed": false
     },
     {
       "slug": "ai-s-role-in-scada-and-power-systems-enhancing-grid-intellig",
@@ -227,7 +241,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/j47CzSMRkQ8U",
       "publishedAt": "2026-09-19",
-      "createdAt": "2026-09-19"
+      "createdAt": "2026-09-19",
+      "listed": false
     },
     {
       "slug": "breaking-scada-data-silos-for-ai-integration",
@@ -243,7 +258,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/CQgplNE5sXIk",
       "publishedAt": "2026-09-19",
-      "createdAt": "2026-09-19"
+      "createdAt": "2026-09-19",
+      "listed": false
     },
     {
       "slug": "go-to-market-strategy-for-vibe-coding-platforms",
@@ -259,7 +275,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/1Z3arb8teIzE",
       "publishedAt": "2026-09-19",
-      "createdAt": "2026-09-19"
+      "createdAt": "2026-09-19",
+      "listed": false
     },
     {
       "slug": "integrating-ai-into-legacy-scada-systems-challenges-and-solu",
@@ -275,7 +292,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/xtm772j3I6jE",
       "publishedAt": "2026-09-19",
-      "createdAt": "2026-09-19"
+      "createdAt": "2026-09-19",
+      "listed": false
     },
     {
       "slug": "ai-algorithms-for-nbfc-credit-scoring",
@@ -291,7 +309,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/vQaxx4HcDEl6",
       "publishedAt": "2026-09-18",
-      "createdAt": "2026-09-18"
+      "createdAt": "2026-09-18",
+      "listed": false
     },
     {
       "slug": "ai-for-nbfcs-enhancing-operations-and-risk-management",
@@ -307,7 +326,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/WrO39MXLHVJt",
       "publishedAt": "2026-09-18",
-      "createdAt": "2026-09-18"
+      "createdAt": "2026-09-18",
+      "listed": false
     },
     {
       "slug": "ai-for-underserved-credit-products",
@@ -323,7 +343,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/qJYumsygW9JK",
       "publishedAt": "2026-09-18",
-      "createdAt": "2026-09-18"
+      "createdAt": "2026-09-18",
+      "listed": false
     },
     {
       "slug": "computational-fluid-dynamics-cfd",
@@ -335,11 +356,12 @@
       "sceneCount": 5,
       "durationSec": 50,
       "thumbnail": "thumbnail.svg",
-      "featured": false,
+      "featured": true,
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/rxRtjs471Fnm",
       "publishedAt": "2026-09-18",
-      "createdAt": "2026-09-18"
+      "createdAt": "2026-09-18",
+      "listed": true
     },
     {
       "slug": "computational-fluid-dynamics-cfd-simulating-fluid-flow",
@@ -355,7 +377,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/VR4YRFVndiHV",
       "publishedAt": "2026-09-18",
-      "createdAt": "2026-09-18"
+      "createdAt": "2026-09-18",
+      "listed": false
     },
     {
       "slug": "data-science-for-kids-becoming-a-super-detective-of-informat",
@@ -371,7 +394,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/Gm3N9TwdPaXD",
       "publishedAt": "2026-09-18",
-      "createdAt": "2026-09-18"
+      "createdAt": "2026-09-18",
+      "listed": false
     },
     {
       "slug": "computational-fluid-dynamics-cfd-2",
@@ -387,7 +411,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/gWjewOAyguV1",
       "publishedAt": "2026-09-16",
-      "createdAt": "2026-09-16"
+      "createdAt": "2026-09-16",
+      "listed": true
     },
     {
       "slug": "what-are-the-main-types-of-cctv-cameras",
@@ -403,7 +428,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/oiBu2cL0bomu",
       "publishedAt": "2026-09-16",
-      "createdAt": "2026-09-16"
+      "createdAt": "2026-09-16",
+      "listed": true
     },
     {
       "slug": "explain-how-tides-work",
@@ -419,7 +445,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/cMTrNJJDveez",
       "publishedAt": "2026-09-15",
-      "createdAt": "2026-09-15"
+      "createdAt": "2026-09-15",
+      "listed": true
     },
     {
       "slug": "explain-how-vaccines-work",
@@ -435,7 +462,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/TL2rvnTHHmrb",
       "publishedAt": "2026-09-15",
-      "createdAt": "2026-09-15"
+      "createdAt": "2026-09-15",
+      "listed": true
     },
     {
       "slug": "how-batteries-store-energy-chemical-to-electrical-power",
@@ -451,7 +479,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/UIWV_trJoFos",
       "publishedAt": "2026-09-15",
-      "createdAt": "2026-09-15"
+      "createdAt": "2026-09-15",
+      "listed": true
     },
     {
       "slug": "how-magnets-work",
@@ -467,7 +496,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/C4GvvwYFdc85",
       "publishedAt": "2026-09-15",
-      "createdAt": "2026-09-15"
+      "createdAt": "2026-09-15",
+      "listed": true
     },
     {
       "slug": "how-volcanoes-erupt-earth-s-fiery-release",
@@ -483,7 +513,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/6c4PwjPRlMz4",
       "publishedAt": "2026-09-15",
-      "createdAt": "2026-09-15"
+      "createdAt": "2026-09-15",
+      "listed": true
     },
     {
       "slug": "tco-and-roi-on-premise-vs-cloud-computing",
@@ -499,7 +530,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/h96BwlmIblro",
       "publishedAt": "2026-09-15",
-      "createdAt": "2026-09-15"
+      "createdAt": "2026-09-15",
+      "listed": true
     },
     {
       "slug": "tell-me-about-tectonic-plats",
@@ -515,7 +547,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/SfIYk7UI-Ej2",
       "publishedAt": "2026-07-16",
-      "createdAt": "2026-07-16"
+      "createdAt": "2026-07-16",
+      "listed": true
     },
     {
       "slug": "airflow-simulation-in-aerospace-designing-the-future-of-flig",
@@ -531,7 +564,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/BAhgxo1jEHpb",
       "publishedAt": "2026-07-09",
-      "createdAt": "2026-07-09"
+      "createdAt": "2026-07-09",
+      "listed": false
     },
     {
       "slug": "k-pg-extinction-asteroid-impact-and-global-catastrophe",
@@ -547,7 +581,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/c6LPuyMNG1mo",
       "publishedAt": "2026-07-09",
-      "createdAt": "2026-07-09"
+      "createdAt": "2026-07-09",
+      "listed": false
     },
     {
       "slug": "resilience-to-the-k-pg-extinction-who-survived-and-why",
@@ -563,7 +598,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/4afRnpCzK-2J",
       "publishedAt": "2026-07-09",
-      "createdAt": "2026-07-09"
+      "createdAt": "2026-07-09",
+      "listed": false
     },
     {
       "slug": "what-happens-to-human-bodies-when-they-drown",
@@ -579,7 +615,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/fqpVtNun-kHF",
       "publishedAt": "2026-07-09",
-      "createdAt": "2026-07-09"
+      "createdAt": "2026-07-09",
+      "listed": false
     },
     {
       "slug": "astrophysics-unlocking-cosmic-secrets",
@@ -595,7 +632,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/BDqvhzTK9w7o",
       "publishedAt": "2026-07-08",
-      "createdAt": "2026-07-08"
+      "createdAt": "2026-07-08",
+      "listed": false
     },
     {
       "slug": "how-gis-terrain-mapping-works",
@@ -611,7 +649,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/5aFsFLBsf0p4",
       "publishedAt": "2026-07-08",
-      "createdAt": "2026-07-08"
+      "createdAt": "2026-07-08",
+      "listed": false
     },
     {
       "slug": "how-our-solar-system-works-the-sun-s-gravitational-embrace",
@@ -627,7 +666,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/n5oO3W-Ko1_Z",
       "publishedAt": "2026-07-08",
-      "createdAt": "2026-07-08"
+      "createdAt": "2026-07-08",
+      "listed": false
     },
     {
       "slug": "nebula-cloud-and-workbenches-accelerating-ai-ml-development",
@@ -643,7 +683,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/fOlZULsWA__V",
       "publishedAt": "2026-07-08",
-      "createdAt": "2026-07-08"
+      "createdAt": "2026-07-08",
+      "listed": false
     },
     {
       "slug": "nebula-cloud-workbench-for-photogrammetry-3d-from-images",
@@ -659,7 +700,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/Bcs0aeMQw1Q8",
       "publishedAt": "2026-07-08",
-      "createdAt": "2026-07-08"
+      "createdAt": "2026-07-08",
+      "listed": false
     },
     {
       "slug": "nebula-workbench-seamless-cad-and-gis-integration",
@@ -675,7 +717,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/oYLOhkcBES5R",
       "publishedAt": "2026-07-08",
-      "createdAt": "2026-07-08"
+      "createdAt": "2026-07-08",
+      "listed": false
     },
     {
       "slug": "can-lem-and-fem-be-used-together-in-a-complementar",
@@ -691,7 +734,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/qeEavk4lT7nR",
       "publishedAt": "2026-07-07",
-      "createdAt": "2026-07-07"
+      "createdAt": "2026-07-07",
+      "listed": false
     },
     {
       "slug": "cfd-simulated-chemical-reactions-real-world-impact",
@@ -707,7 +751,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/dc20tM1U2PNw",
       "publishedAt": "2026-07-07",
-      "createdAt": "2026-07-07"
+      "createdAt": "2026-07-07",
+      "listed": false
     },
     {
       "slug": "cfd-simulation-vs-reality-the-accuracy-debate",
@@ -723,7 +768,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/jgCjiKFexbN5",
       "publishedAt": "2026-07-07",
-      "createdAt": "2026-07-07"
+      "createdAt": "2026-07-07",
+      "listed": false
     },
     {
       "slug": "explain-quantum-computing-fundamentals",
@@ -739,7 +785,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/01eidUZwi-_h",
       "publishedAt": "2026-07-07",
-      "createdAt": "2026-07-07"
+      "createdAt": "2026-07-07",
+      "listed": false
     },
     {
       "slug": "photogrammetry-from-photos-to-3d-models",
@@ -755,7 +802,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/1DEdA4u1NY45",
       "publishedAt": "2026-07-07",
-      "createdAt": "2026-07-07"
+      "createdAt": "2026-07-07",
+      "listed": false
     },
     {
       "slug": "popular-software-tools-for-cfd-meshing",
@@ -771,7 +819,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/xC8fabG3UOe5",
       "publishedAt": "2026-07-07",
-      "createdAt": "2026-07-07"
+      "createdAt": "2026-07-07",
+      "listed": false
     },
     {
       "slug": "quantum-computing-s-niche-problems-best-suited-for-quantum-a",
@@ -787,7 +836,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/USwNwu3xi9Eb",
       "publishedAt": "2026-07-07",
-      "createdAt": "2026-07-07"
+      "createdAt": "2026-07-07",
+      "listed": false
     },
     {
       "slug": "airflow-simulation-in-engineering-the-digital-wind-tunnel",
@@ -803,7 +853,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/4-u4jY60ArjT",
       "publishedAt": "2026-07-06",
-      "createdAt": "2026-07-06"
+      "createdAt": "2026-07-06",
+      "listed": false
     },
     {
       "slug": "are-there-emerging-materials-that-could-revolution",
@@ -819,7 +870,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/LA79PjpkcfuY",
       "publishedAt": "2026-07-06",
-      "createdAt": "2026-07-06"
+      "createdAt": "2026-07-06",
+      "listed": false
     },
     {
       "slug": "computational-fluid-dynamics-cfd-simulating-fluid-motion",
@@ -835,7 +887,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/JI0slVAu538P",
       "publishedAt": "2026-07-06",
-      "createdAt": "2026-07-06"
+      "createdAt": "2026-07-06",
+      "listed": false
     },
     {
       "slug": "drone-structural-engineering-building-lightweight-resilient-",
@@ -851,7 +904,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/aadHfOoLdK1g",
       "publishedAt": "2026-07-06",
-      "createdAt": "2026-07-06"
+      "createdAt": "2026-07-06",
+      "listed": false
     },
     {
       "slug": "how-do-autonomous-vehicles-handle-terrain-predicti",
@@ -867,7 +921,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/E_6rY25ORQ0c",
       "publishedAt": "2026-07-06",
-      "createdAt": "2026-07-06"
+      "createdAt": "2026-07-06",
+      "listed": false
     },
     {
       "slug": "gis-terrain-mapping-seeing-the-world-in-3d",
@@ -883,7 +938,8 @@
       "hasAudio": false,
       "shareUrl": "https://app.nebulacloud.studio/share/FHuR8tvChlHi",
       "publishedAt": "2026-07-05",
-      "createdAt": "2026-07-05"
+      "createdAt": "2026-07-05",
+      "listed": true
     }
   ]
 }
