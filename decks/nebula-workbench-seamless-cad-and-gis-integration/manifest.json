@@ -6,71 +6,69 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 8,
-  "durationSec": 80,
+  "durationSec": 78,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Bridging Digital Worlds",
+      "narration": "Nebula Workbench acts as a central hub, seamlessly connecting diverse digital data from <b>CAD and GIS software</b>. This integration unlocks powerful new possibilities for comprehensive analysis and visualization across various industries.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Understanding Data Types",
+      "narration": "<b>CAD software</b> focuses on precise 3D object design, like buildings or machinery, while <b>GIS platforms</b> manage geographical data and spatial relationships. Understanding these distinct data types is crucial for effective integration.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Importing CAD Models",
+      "narration": "Users can effortlessly <b>import 3D models</b> from CAD software into Nebula Workbench. This initial step transforms detailed engineering designs into a format ready for spatial context and advanced analysis.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Integrating GIS Data",
+      "narration": "Next, <b>GIS data</b>, including points, lines, and polygons, is integrated and overlaid within the Workbench. This provides crucial real-world geographical context to the imported 3D models.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Spatial Alignment & Analysis",
+      "narration": "The Workbench performs critical <b>spatial alignment</b>, ensuring CAD models and GIS data accurately correspond in real-world coordinates. This enables precise spatial analysis and generates valuable insights.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-4.mp3"
     },
     {
       "index": 5,
-      "title": "Scene 6",
-      "narration": "",
+      "title": "Urban Planning & Infrastructure",
+      "narration": "In <b>urban planning</b>, Nebula Workbench integrates CAD building designs with GIS city infrastructure, like roads and utilities. This allows for comprehensive impact assessments and optimized development strategies.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-5.mp3"
     },
     {
       "index": 6,
-      "title": "Scene 7",
-      "narration": "",
+      "title": "Environmental Monitoring",
+      "narration": "For <b>environmental monitoring</b>, the Workbench combines CAD models of industrial facilities with GIS data on water bodies or land use. This helps simulate pollution spread and assess ecological impacts.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-6.mp3"
     },
     {
       "index": 7,
-      "title": "Scene 8",
-      "narration": "",
+      "title": "Bidirectional Workflow",
+      "narration": "Nebula Workbench facilitates a <b>bidirectional workflow</b>, allowing data to flow seamlessly between CAD, GIS, and the Workbench. This ensures continuous analysis, refinement, and updated insights across all platforms.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-7.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-08",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/oYLOhkcBES5R"
+  "publicMetadataOnly": true
 }

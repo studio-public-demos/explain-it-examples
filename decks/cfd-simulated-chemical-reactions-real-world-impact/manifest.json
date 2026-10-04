@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 54,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "CFD & Chemical Reactions: Why It Matters",
+      "narration": "<b>CFD-simulated chemical reactions</b> predict how fluids and chemicals interact, crucial for optimizing complex industrial processes. This virtual testing can reduce physical experiments by over 50%, saving significant time and cost.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Simulation Process Explained",
+      "narration": "The process begins by defining <b>fluid properties</b> and <b>chemical species</b>, which are then fed into a computational solver. This simulates their intricate mixing, transport, and reaction kinetics, generating predictive data.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "Optimizing Chemical Reactor Design",
+      "narration": "In <b>reactor design</b>, CFD models predict temperature, pressure, and species concentration profiles within the vessel. This optimizes catalyst placement and flow patterns, improving reaction yield by up to 30%.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "Combustion in Jet Engines",
+      "narration": "CFD simulations are vital for optimizing <b>combustion in engines</b>, modeling fuel-air mixing and flame propagation. This reduces harmful emissions like NOx by up to 20% and boosts fuel efficiency.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Driving Future Innovation & Safety",
+      "narration": "These simulations drive innovation, enhancing <b>safety protocols</b>, developing cleaner energy solutions, and reducing development costs. They are foundational for sustainable industrial progress.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-07",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/dc20tM1U2PNw"
+  "publicMetadataOnly": true
 }

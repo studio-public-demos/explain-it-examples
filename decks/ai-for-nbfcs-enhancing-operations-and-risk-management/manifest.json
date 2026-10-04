@@ -6,106 +6,104 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 13,
-  "durationSec": 130,
+  "durationSec": 149,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "NBFC Challenges & AI Opportunity",
+      "narration": "NBFCs grapple with <b>credit risk</b>, manual processes, and intense competition. AI offers a powerful solution, transforming these challenges into opportunities for <b>growth and efficiency</b>.",
+      "durationSec": 7,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Enhanced Credit Risk Assessment",
+      "narration": "AI analyzes vast datasets, including <b>alternative data</b>, to provide more accurate <b>credit scores</b> than traditional methods. This reduces default rates by up to 20% and expands lending to underserved segments.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Automated Fraud Detection & Prevention",
+      "narration": "AI systems continuously monitor transactions, identifying <b>anomalous patterns</b> indicative of fraud in real-time. This proactive approach can reduce fraud losses by 15-30% compared to rule-based systems.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Personalized Customer Experience",
+      "narration": "AI analyzes customer behavior to offer <b>tailored products</b> and services, improving engagement and retention. This personalization can boost conversion rates by 10-25% and increase customer lifetime value.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Operational Efficiency & Automation",
+      "narration": "AI automates repetitive tasks like <b>data entry</b> and document processing, reducing human error and operational costs by 30-50%. This frees up staff for more strategic, value-added activities.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-4.mp3"
     },
     {
       "index": 5,
-      "title": "Scene 6",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Tradeoffs: Investment vs. Reward",
+      "narration": "Implementing AI requires significant upfront <b>investment</b> in data infrastructure and skilled talent. However, the long-term rewards in <b>reduced costs</b>, increased revenue, and competitive advantage far outweigh these initial expenditures.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-5.mp3"
     },
     {
       "index": 6,
-      "title": "Scene 7",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Limitations & Ethical Considerations",
+      "narration": "AI models can inherit <b>bias</b> from training data, leading to unfair outcomes. Ensuring <b>data privacy</b> and model explainability (XAI) are crucial to maintain trust and comply with regulations like GDPR.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-6.mp3"
     },
     {
       "index": 7,
-      "title": "Scene 8",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "AI vs. Traditional Methods",
+      "narration": "Traditional methods rely on <b>static rules</b> and limited data, leading to higher error rates. AI, with its <b>dynamic learning</b> and vast data processing, offers superior accuracy and adaptability, especially for complex, evolving risks.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-7.mp3"
     },
     {
       "index": 8,
-      "title": "Scene 9",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Application: Microfinance Lending",
+      "narration": "In microfinance, AI assesses the <b>creditworthiness</b> of individuals without formal credit histories. By analyzing alternative data, AI enables NBFCs to extend loans to <b>underserved populations</b> with manageable risk, fostering financial inclusion.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-8.mp3"
     },
     {
       "index": 9,
-      "title": "Scene 10",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Application: Asset Finance",
+      "narration": "In asset finance, AI predicts <b>asset depreciation</b> and residual values more accurately. This optimizes loan terms and minimizes risk for NBFCs, improving profitability on financed assets like vehicles or equipment.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-9.mp3"
     },
     {
       "index": 10,
-      "title": "Scene 11",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Advanced Insight: Explainable AI (XAI)",
+      "narration": "XAI provides <b>transparency</b> into AI's decision-making process, crucial for regulatory compliance and building trust. Understanding *why* a loan was approved or denied helps NBFCs refine models and address potential biases proactively.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-10.mp3"
     },
     {
       "index": 11,
-      "title": "Scene 12",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Future: AI-Powered NBFC Ecosystem",
+      "narration": "AI will enable NBFCs to build a holistic <b>financial ecosystem</b>, offering seamless services from lending to wealth management. This integrated approach will drive innovation, customer loyalty, and sustained growth in a dynamic market.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-11.mp3"
     },
     {
       "index": 12,
-      "title": "Scene 13",
-      "narration": "",
+      "title": "Key Takeaways for NBFCs",
+      "narration": "AI is not just a tool but a strategic imperative for NBFCs, driving <b>efficiency</b>, mitigating <b>risk</b>, and fostering <b>customer-centricity</b>. Embracing AI means investing in data, talent, and ethical frameworks for sustainable growth.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-12.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-09-18",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/WrO39MXLHVJt"
+  "publicMetadataOnly": true
 }

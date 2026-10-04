@@ -6,99 +6,97 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 12,
-  "durationSec": 120,
+  "durationSec": 122,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "AI Chatbots: Full Replacement?",
+      "narration": "The rise of <b>AI chatbots</b> promises efficiency and cost savings, prompting the question: can they truly replace human customer service representatives entirely?",
+      "durationSec": 8,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "AI's Core Capabilities",
+      "narration": "AI chatbots utilize <b>Natural Language Processing (NLP)</b> and <b>Machine Learning (ML)</b> to understand queries, access information, and generate automated responses.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Routine Query Efficiency",
+      "narration": "Chatbots excel at resolving <b>frequently asked questions</b> and simple transactions, providing instant, consistent answers 24/7, significantly reducing wait times.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "Data-Driven Responses",
+      "narration": "Chatbots can access extensive databases and customer history to offer <b>personalized information</b>, though true empathy and nuanced understanding remain challenging.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "NLP & Context Limitations",
+      "narration": "While advanced <b>NLP models</b> parse language, they often struggle with complex context, sarcasm, or multi-turn conversations requiring deep inferential reasoning.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     },
     {
       "index": 5,
-      "title": "Scene 6",
-      "narration": "",
+      "title": "Cost vs. Complexity Tradeoff",
+      "narration": "Deploying chatbots offers substantial <b>cost savings</b> for simple tasks, but scaling them for complex, unstructured problems incurs significant development and maintenance costs.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-5.mp3"
     },
     {
       "index": 6,
-      "title": "Scene 7",
-      "narration": "",
+      "title": "The Empathy Gap",
+      "narration": "Chatbots lack genuine <b>emotional intelligence</b>, struggling to understand customer frustration, provide comfort, or navigate sensitive situations with human-like compassion.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-6.mp3"
     },
     {
       "index": 7,
-      "title": "Scene 8",
-      "narration": "",
+      "title": "Human vs. AI Strengths",
+      "narration": "Humans offer <b>critical thinking</b>, creative problem-solving, and adaptability to novel issues, while AI provides speed, consistency, and scalability for defined tasks.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-7.mp3"
     },
     {
       "index": 8,
-      "title": "Scene 9",
-      "narration": "",
+      "title": "Hybrid Banking Support",
+      "narration": "In banking, chatbots handle initial inquiries like balance checks, escalating complex fraud cases or loan applications to <b>human specialists</b> for nuanced support.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-8.mp3"
     },
     {
       "index": 9,
-      "title": "Scene 10",
-      "narration": "",
+      "title": "Healthcare Triage & Support",
+      "narration": "AI can triage symptoms or provide information on common ailments, but <b>human medical professionals</b> are indispensable for diagnosis, emotional support, and critical care decisions.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-9.mp3"
     },
     {
       "index": 10,
-      "title": "Scene 11",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Crisis Management & Trust",
+      "narration": "During crises, customers seek reassurance and empathy; an AI's inability to convey genuine concern can erode trust, making <b>human intervention</b> crucial for brand reputation.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-10.mp3"
     },
     {
       "index": 11,
-      "title": "Scene 12",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Future: Hybrid Intelligence",
+      "narration": "Full replacement is unlikely. The future lies in a <b>hybrid model</b> where AI augments human agents, handling routine tasks and empowering humans for high-value, empathetic interactions.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-11.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-09-22",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/UmuxS0oCv4qg"
+  "publicMetadataOnly": true
 }

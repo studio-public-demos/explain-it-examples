@@ -6,78 +6,76 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 9,
-  "durationSec": 90,
+  "durationSec": 96,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Legacy SCADA: A Foundation",
+      "narration": "Many critical infrastructures rely on <b>legacy SCADA systems</b>, which are robust but often decades old, managing operations from power grids to water treatment with established, proprietary protocols.",
+      "durationSec": 8,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
+      "title": "Data Incompatibility",
+      "narration": "A major hurdle is <b>data incompatibility</b>; legacy SCADA systems use diverse, often proprietary formats, making it difficult for AI models to access, understand, and process the raw operational data effectively.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Security Vulnerabilities",
+      "narration": "Introducing AI into SCADA systems creates new <b>security vulnerabilities</b>, as traditional operational technology (OT) security models are often insufficient to protect against sophisticated cyber threats targeting AI algorithms and data pipelines.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "System Complexity & Integration",
+      "narration": "Integrating AI adds significant <b>system complexity</b> by requiring new hardware, software, and network components to coexist with existing, often fragile, SCADA infrastructure, increasing the risk of operational disruption.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Real-time Performance",
+      "narration": "SCADA systems demand <b>real-time performance</b> for critical control, meaning AI models must process data and provide insights with extremely low latency, a challenge for complex algorithms and limited edge computing resources.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-4.mp3"
     },
     {
       "index": 5,
-      "title": "Scene 6",
-      "narration": "",
+      "title": "Regulatory & Compliance",
+      "narration": "Strict <b>regulatory compliance</b> and industry standards govern SCADA systems, especially in critical infrastructure. AI integration must adhere to these, often requiring extensive validation, auditing, and certification processes.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-5.mp3"
     },
     {
       "index": 6,
-      "title": "Scene 7",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Example: Power Grid Optimization",
+      "narration": "In a power grid, AI can predict demand fluctuations, but integrating it into existing SCADA for real-time control requires overcoming <b>data format differences</b> from various sensors and ensuring <b>cybersecurity</b> of predictive models.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-6.mp3"
     },
     {
       "index": 7,
-      "title": "Scene 8",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Example: Water Treatment Plants",
+      "narration": "For water treatment, AI could optimize chemical dosing, but integrating it means dealing with <b>sensor data variability</b> from aging infrastructure and ensuring the AI's decisions meet stringent <b>health and safety regulations</b>.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-7.mp3"
     },
     {
       "index": 8,
-      "title": "Scene 9",
-      "narration": "",
+      "title": "Path Forward: Phased Modernization",
+      "narration": "Overcoming these challenges requires a <b>phased modernization</b> approach, starting with data standardization, implementing robust cybersecurity, and gradually integrating AI capabilities while maintaining operational stability and compliance.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-8.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-09-19",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/xtm772j3I6jE"
+  "publicMetadataOnly": true
 }

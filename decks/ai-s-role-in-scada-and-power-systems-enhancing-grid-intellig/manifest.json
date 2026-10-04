@@ -6,71 +6,69 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 8,
-  "durationSec": 80,
+  "durationSec": 88,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Grid's Growing Complexity",
+      "narration": "Modern power grids are increasingly complex, integrating diverse energy sources like renewables and facing fluctuating demand. This complexity strains traditional <b>SCADA (Supervisory Control and Data Acquisition)</b> systems, which rely heavily on human oversight.",
+      "durationSec": 8,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
+      "title": "AI: The Brain for the Grid",
+      "narration": "AI acts as an intelligent 'brain' for the grid, processing vast amounts of <b>real-time data</b> from sensors and meters. It transforms raw data into actionable insights, enabling more proactive and precise <b>system management</b>.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Predictive Maintenance for Reliability",
+      "narration": "AI analyzes historical and real-time data to predict equipment failures, shifting from reactive repairs to <b>predictive maintenance</b>. This proactive approach reduces downtime by up to 25% and extends asset lifespan, ensuring <b>grid reliability</b>.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Optimizing Energy Management",
+      "narration": "AI optimizes energy flow by forecasting demand and supply with high accuracy, especially for intermittent renewables. This allows for <b>dynamic load balancing</b> and efficient resource allocation, minimizing waste and improving <b>grid efficiency</b>.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Enhanced Grid Resilience & Security",
+      "narration": "AI significantly boosts <b>grid resilience</b> by rapidly detecting and isolating faults, minimizing outage duration. Furthermore, it strengthens <b>cybersecurity</b> by identifying anomalous network traffic patterns that could indicate a cyberattack, protecting critical infrastructure.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-4.mp3"
     },
     {
       "index": 5,
-      "title": "Scene 6",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Case Study: Smart Grid in California",
+      "narration": "In California, AI is used to manage solar power fluctuations, predicting output based on weather patterns. This allows utilities to balance supply and demand, preventing outages and integrating more <b>renewable energy</b> into the grid efficiently.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-5.mp3"
     },
     {
       "index": 6,
-      "title": "Scene 7",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Application: Microgrid Management",
+      "narration": "AI is crucial for managing <b>microgrids</b>, which operate independently or connected to the main grid. It optimizes local energy generation, storage, and consumption, ensuring stability and cost-effectiveness for communities and critical facilities.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-6.mp3"
     },
     {
       "index": 7,
-      "title": "Scene 8",
-      "narration": "",
+      "title": "The Future: Self-Healing Grids",
+      "narration": "AI is paving the way for <b>self-healing grids</b> that can autonomously detect, diagnose, and recover from disturbances. This significantly enhances grid reliability and efficiency, moving towards a more resilient and sustainable <b>energy future</b>.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-7.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-09-19",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/j47CzSMRkQ8U"
+  "publicMetadataOnly": true
 }

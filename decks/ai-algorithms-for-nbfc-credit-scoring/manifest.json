@@ -6,120 +6,118 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 15,
-  "durationSec": 150,
+  "durationSec": 151,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The NBFC Credit Challenge",
+      "narration": "NBFCs often serve customers with <b>limited or no traditional credit history</b>, making conventional scoring difficult. This leads to missed opportunities and higher risk for underserved segments. AI can unlock new insights.",
+      "durationSec": 8,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Leveraging Alternative Data",
+      "narration": "AI algorithms thrive on diverse data, enabling NBFCs to use <b>alternative data sources</b> like mobile usage, transactional history, and digital footprints. This provides a richer profile for thin-file customers.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "Gradient Boosting Machines (GBMs)",
+      "narration": "<b>Gradient Boosting Machines (GBMs)</b>, like XGBoost or LightGBM, are highly effective. They build sequential decision trees, correcting errors from previous trees to achieve superior predictive accuracy, especially with mixed data types.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Random Forests for Robustness",
+      "narration": "<b>Random Forests</b> build multiple independent decision trees and average their predictions. This ensemble approach reduces overfitting and increases model stability, making it robust against noisy or incomplete data common in NBFC contexts.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Neural Networks for Deep Patterns",
+      "narration": "For very large datasets, <b>Neural Networks (NNs)</b> can uncover intricate, non-linear relationships that simpler models miss. Their ability to learn complex feature interactions can yield higher predictive power, but at the cost of interpretability.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     },
     {
       "index": 5,
-      "title": "Scene 6",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Feature Engineering is Key",
+      "narration": "Regardless of the algorithm, <b>feature engineering</b> is paramount. Transforming raw alternative data into meaningful features (e.g., spending patterns, social network density) directly impacts model performance and predictive power.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-5.mp3"
     },
     {
       "index": 6,
-      "title": "Scene 7",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Interpretability vs. Performance Trade-off",
+      "narration": "There's a crucial <b>trade-off between model interpretability and predictive performance</b>. Simpler models like Logistic Regression are transparent but less accurate, while complex NNs offer high accuracy but are 'black boxes,' posing challenges for regulatory compliance.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-6.mp3"
     },
     {
       "index": 7,
-      "title": "Scene 8",
-      "narration": "",
+      "title": "Limitations & Failure Modes",
+      "narration": "AI models can fail if fed <b>biased data</b>, leading to discriminatory outcomes. They also require continuous monitoring for <b>data drift</b>, where input data characteristics change over time, degrading model accuracy and necessitating retraining.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-7.mp3"
     },
     {
       "index": 8,
-      "title": "Scene 9",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Comparison: AI vs. Traditional",
+      "narration": "Traditional methods like <b>Logistic Regression</b> are interpretable but struggle with non-linear data. AI models, especially tree-based ensembles, handle complex relationships and diverse data much better, leading to significantly higher predictive power.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-8.mp3"
     },
     {
       "index": 9,
-      "title": "Scene 10",
-      "narration": "",
+      "title": "Application: Micro-lending",
+      "narration": "In <b>micro-lending</b>, AI models can assess creditworthiness for small businesses or individuals with no formal credit. By analyzing mobile payment data and social media activity, NBFCs can extend credit to previously excluded populations, fostering financial inclusion.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-9.mp3"
     },
     {
       "index": 10,
-      "title": "Scene 11",
-      "narration": "",
+      "title": "Application: SME Lending",
+      "narration": "For <b>SME lending</b>, AI can analyze business transaction data, cash flow patterns, and even online reviews to assess credit risk. This allows NBFCs to provide tailored financing solutions to small and medium enterprises, fueling economic growth.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-10.mp3"
     },
     {
       "index": 11,
-      "title": "Scene 12",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Explainable AI (XAI) for Trust",
+      "narration": "To address the 'black box' problem, <b>Explainable AI (XAI)</b> techniques provide insights into model decisions. This is crucial for regulatory compliance, building trust with customers, and allowing NBFCs to understand *why* a particular credit decision was made.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-11.mp3"
     },
     {
       "index": 12,
-      "title": "Scene 13",
-      "narration": "",
+      "title": "Ethical Considerations",
+      "narration": "AI in credit scoring must navigate <b>ethical considerations</b>, ensuring fairness, preventing discrimination, and maintaining data privacy. Regular audits and transparent model development are essential to uphold responsible AI practices and avoid adverse impact.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-12.mp3"
     },
     {
       "index": 13,
-      "title": "Scene 14",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Advanced Insight: Ensemble Stacking",
+      "narration": "For peak performance, <b>ensemble stacking</b> combines predictions from multiple diverse models (e.g., GBMs, NNs, Logistic Regression) using a 'meta-learner'. This approach often yields superior accuracy by leveraging the strengths of each individual model.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-13.mp3"
     },
     {
       "index": 14,
-      "title": "Scene 15",
-      "narration": "",
+      "title": "Synthesis & Future Outlook",
+      "narration": "AI algorithms like <b>GBMs and Random Forests</b> are ideal for NBFC credit scoring due to their robustness and ability to handle alternative data. Future advancements will focus on more explainable AI and continuous learning models to adapt to evolving economic conditions.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-14.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-09-18",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/vQaxx4HcDEl6"
+  "publicMetadataOnly": true
 }

@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 54,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
+      "title": "What is CFD? Simulating Fluid Flow",
+      "narration": "<b>Computational Fluid Dynamics (CFD)</b> uses computers to simulate how liquids and gases move, predicting complex behaviors. This digital approach saves billions in physical testing, accelerating innovation across industries.",
+      "durationSec": 12,
       "audioPath": null
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
+      "title": "Discretization: Breaking Down Flow",
+      "narration": "CFD divides a continuous fluid domain into millions of tiny, discrete cells, forming a <b>computational mesh</b>. This process, called <b>discretization</b>, transforms complex physics into solvable algebraic equations for each cell.",
       "durationSec": 10,
       "audioPath": null
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "Governing Equations: The Physics",
+      "narration": "For every cell, CFD solves fundamental <b>governing equations</b>: conservation of mass, momentum (Navier-Stokes), and energy. These complex partial differential equations are numerically approximated to predict fluid velocity, pressure, and temperature.",
       "durationSec": 10,
       "audioPath": null
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
+      "title": "Aircraft Aerodynamics: Real Example",
+      "narration": "In aerospace, CFD is vital for optimizing <b>aircraft aerodynamics</b>, simulating airflow over wings and fuselages. Engineers can virtually test countless designs, reducing drag by up to 15% and significantly improving fuel efficiency before physical prototypes are built.",
+      "durationSec": 12,
       "audioPath": null
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "CFD's Broad Impact & Future",
+      "narration": "CFD's impact spans from <b>climate modeling</b> and urban planning to biomedical engineering, enabling predictive insights into complex systems. It continues to drive innovation, helping solve critical challenges and shaping our future designs.",
       "durationSec": 10,
       "audioPath": null
     }
   ],
   "quiz": [],
-  "featured": null,
   "publishedAt": "2026-09-18",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/VR4YRFVndiHV"
+  "publicMetadataOnly": true
 }

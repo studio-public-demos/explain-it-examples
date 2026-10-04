@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 54,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
+      "title": "CCTV: Eyes Everywhere",
+      "narration": "CCTV, or <b>Closed-Circuit Television</b>, uses cameras to transmit video to a limited set of monitors, creating a private surveillance network. This system helps deter crime and provides crucial evidence, with over 1 billion cameras globally.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Signal Journey",
+      "narration": "A CCTV system functions like a digital nervous system, where the <b>camera acts as the eye</b>, capturing visual data. This data is then converted into an electrical signal and transmitted, much like a message sent through a secure channel.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Core Components",
+      "narration": "A complete CCTV setup involves a <b>camera</b> for image capture, a <b>Digital Video Recorder (DVR)</b> or <b>Network Video Recorder (NVR)</b> for processing and storage, and a <b>monitor</b> for live viewing. Network cables or Wi-Fi connect these elements.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "Smart Surveillance",
+      "narration": "Modern CCTV systems integrate <b>AI and analytics</b> for advanced features like facial recognition and motion detection. This transforms passive monitoring into proactive security, alerting users to specific events rather than constant manual review.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Impact and Future",
+      "narration": "CCTV systems are vital for <b>public safety</b>, asset protection, and operational efficiency across various sectors. The future promises more integrated, intelligent, and energy-efficient systems, further enhancing security capabilities.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-09-16",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/oiBu2cL0bomu"
+  "publicMetadataOnly": true
 }

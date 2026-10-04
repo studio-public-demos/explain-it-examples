@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 52,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Earth's Pressure Release Valve",
+      "narration": "Volcanoes are Earth's powerful vents, releasing immense <b>pressure</b> and heat from deep within. Did you know over 1,500 active volcanoes exist globally, constantly reshaping our planet?",
+      "durationSec": 8,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Magma's Journey Upward",
+      "narration": "It all begins with <b>magma</b>, molten rock formed deep in Earth's mantle. Being less dense, this buoyant magma slowly rises through cracks, much like a hot air balloon ascending.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "Pressure Builds in the Chamber",
+      "narration": "Magma collects in a <b>magma chamber</b> beneath the volcano, like a balloon filling with air. Dissolved gases, primarily water vapor and CO2, create immense pressure, seeking an escape.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Eruption: Release of Energy",
+      "narration": "When pressure exceeds the rock's strength, the volcano erupts! This can be a gentle flow of <b>lava</b>, like Hawaii's Kilauea, or explosive blasts of <b>ash</b> and gas, like Mount St. Helens.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Shaping Landscapes, Impacting Climate",
+      "narration": "Volcanic eruptions are powerful geological forces, creating new landforms and influencing global climate by releasing gases and ash. They are a constant reminder of Earth's dynamic nature.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-09-15",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/6c4PwjPRlMz4"
+  "publicMetadataOnly": true
 }

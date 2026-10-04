@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 56,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
+      "title": "CFD Meshing: Digital Blueprint",
+      "narration": "CFD meshing is the critical first step in simulating fluid flow, transforming a <b>physical object</b> into a digital grid. This process creates millions of tiny cells, enabling accurate prediction of complex phenomena like airflow over a wing.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Geometry to Grid",
+      "narration": "Meshing begins by importing a <b>CAD model</b>, then defining boundaries and regions. The software discretizes this geometry into a network of interconnected cells, forming the computational domain for fluid flow calculations.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Leading Commercial Tools",
+      "narration": "Commercial tools like <b>Ansys Meshing</b>, known for its integration, and <b>Pointwise</b>, prized for its control over high-quality structured grids, dominate the market. <b>ICEM CFD</b> also offers advanced block-structured meshing capabilities.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Open-Source & Specialized",
+      "narration": "For open-source enthusiasts, <b>OpenFOAM's snappyHexMesh</b> is a powerful utility for complex geometries. Meanwhile, specialized tools like <b>Gridgen</b> cater to specific aerospace needs, offering tailored meshing solutions.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Impact & Future of Meshing",
+      "narration": "High-quality meshing is crucial for accurate simulations, impacting design optimization in fields like <b>automotive</b> and <b>aerospace</b>. Future trends include AI-driven automation and adaptive meshing for even faster, more precise results.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-07",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/xC8fabG3UOe5"
+  "publicMetadataOnly": true
 }

@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 49,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Computational Fluid Dynamics (CFD)",
+      "narration": "<b>Computational Fluid Dynamics (CFD)</b> simulates how liquids and gases move and interact, transforming complex physical problems into solvable numerical ones. It's like a virtual wind tunnel, predicting behavior without costly physical tests.",
+      "durationSec": 8,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Discretizing the Fluid Domain",
+      "narration": "CFD begins by breaking down a continuous fluid domain into a tiny mesh of discrete cells, a process called <b>discretization</b>. Then, fundamental <b>Navier-Stokes equations</b> are applied to each cell to describe fluid motion.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Solving the Equations Iteratively",
+      "narration": "A powerful <b>solver</b> iteratively calculates fluid properties for each cell, converging towards a stable solution. This involves millions of calculations, often requiring supercomputers to process the vast amount of data.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "Aerodynamic Design Optimization",
+      "narration": "In aerospace, CFD simulates <b>airflow over aircraft wings</b>, predicting lift and drag forces. This virtual testing optimizes wing shapes, reducing fuel consumption by up to 15% and enhancing safety before physical prototypes are built.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Impact Across Industries",
+      "narration": "CFD's versatility extends from designing efficient car bodies and optimizing medical devices like heart valves, to modeling weather patterns. It provides <b>critical insights</b>, driving innovation and improving performance across countless fields.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": true,
   "publishedAt": "2026-09-21",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/AIplWhxfykCC"
+  "publicMetadataOnly": true
 }

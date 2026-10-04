@@ -12,44 +12,42 @@
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Unlocking Fluid Secrets with CFD",
+      "narration": "<b>Computational Fluid Dynamics (CFD)</b> simulates how liquids and gases move, interact, and transfer heat. This powerful tool helps engineers predict complex fluid behaviors, saving billions in prototyping costs annually.",
+      "durationSec": 8,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Discretizing the Fluid Domain",
+      "narration": "CFD begins by breaking a continuous fluid space into a <b>mesh</b> of tiny, discrete cells, like pixels in an image. This process, called <b>discretization</b>, transforms complex equations into solvable algebraic forms.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "Solving Navier-Stokes Equations",
+      "narration": "Within each cell, the fundamental <b>Navier-Stokes equations</b> are numerically solved. These complex equations describe fluid motion, momentum, and energy conservation, providing velocity, pressure, and temperature at every point.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "CFD in Action: Automotive Aerodynamics",
+      "narration": "In automotive design, CFD simulates airflow over vehicles, revealing areas of high drag or lift. This allows engineers to optimize car shapes for better fuel efficiency and stability, reducing drag by up to 15% in some designs.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "CFD: Powering Innovation",
+      "narration": "CFD is crucial for optimizing designs across diverse fields, from aerospace to biomedical engineering. It enables virtual testing, accelerating innovation and reducing physical prototyping costs by up to 70% in complex systems.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-09-16",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/gWjewOAyguV1"
+  "publicMetadataOnly": true
 }

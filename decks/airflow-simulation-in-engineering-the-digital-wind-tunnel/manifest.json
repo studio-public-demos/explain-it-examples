@@ -12,44 +12,42 @@
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "What is Airflow Simulation (CFD)?",
+      "narration": "Airflow simulation, or <b>Computational Fluid Dynamics (CFD)</b>, uses computers to predict how air moves around objects. This virtual testing can reduce physical prototypes by up to 70%, saving significant time and cost in engineering design.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Digital Wind Tunnel Process",
+      "narration": "Engineers first create a <b>digital model</b> of an object, like a car or a wing. Then, powerful algorithms apply the <b>laws of physics</b> to simulate air's interaction, much like a virtual wind tunnel.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Mesh & Equations: The Core",
+      "narration": "The virtual space is divided into millions of tiny <b>mesh cells</b>, forming a grid. For each cell, complex <b>fluid dynamics equations</b> are solved iteratively, capturing local air behavior.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "Vehicle Aerodynamics Example",
+      "narration": "In automotive engineering, CFD helps optimize vehicle shapes to reduce <b>aerodynamic drag</b>, improving fuel efficiency by up to 10-15%. Engineers visualize airflow to refine contours and minimize turbulence.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Impact & Future of CFD",
+      "narration": "Airflow simulation provides critical <b>insights</b>, accelerating innovation across industries. It enables more efficient designs, enhances product safety, and contributes to sustainable engineering solutions worldwide.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-06",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/4-u4jY60ArjT"
+  "publicMetadataOnly": true
 }

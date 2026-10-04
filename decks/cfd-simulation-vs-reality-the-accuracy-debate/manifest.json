@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 56,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "CFD vs. Reality: The Accuracy Debate",
+      "narration": "<b>CFD simulations</b> use numerical methods to predict fluid behavior, while <b>real-world experiments</b> provide empirical data. The key question is how closely these two approaches align, often revealing differences.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Modeling vs. Measuring",
+      "narration": "CFD builds a <b>digital model</b> of fluid dynamics, solving equations to predict flow. Experiments directly <b>measure physical phenomena</b>, capturing real-world complexities and providing ground truth.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "Factors Influencing Accuracy",
+      "narration": "CFD accuracy depends on the <b>mesh resolution</b>, the fidelity of <b>physical models</b> like turbulence, and precise <b>input data</b>. Each factor introduces potential errors.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Aerospace Wing Design",
+      "narration": "In aerospace, CFD simulates airflow over a <b>wing</b>, predicting lift and drag. These predictions are then rigorously compared against <b>wind tunnel experiments</b> for validation, often showing 5-10% differences.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Complementary Tools for Innovation",
+      "narration": "CFD and experiments are <b>complementary tools</b>, not replacements. CFD accelerates design iteration and explores scenarios, while experiments provide <b>critical validation</b>, leading to robust engineering solutions.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-07",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/jgCjiKFexbN5"
+  "publicMetadataOnly": true
 }

@@ -6,57 +6,55 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 6,
-  "durationSec": 60,
+  "durationSec": 70,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Sunlight's Energy for Life",
+      "narration": "Photosynthesis is the incredible process where plants, algae, and some bacteria convert <b>light energy</b> into <b>chemical energy</b>, forming the foundation of nearly all life on Earth. This process produces over 100 billion tons of sugar annually, fueling ecosystems globally.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Chloroplast Factory",
+      "narration": "Photosynthesis primarily occurs within <b>chloroplasts</b>, specialized organelles inside plant cells, acting like tiny solar-powered factories. These contain <b>chlorophyll</b>, the green pigment that efficiently absorbs sunlight's energy to kickstart the process.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "Inputs and Outputs",
+      "narration": "The primary inputs for photosynthesis are <b>carbon dioxide</b> (CO₂) from the air and <b>water</b> (H₂O) from the soil, absorbed by roots. The key outputs are <b>glucose</b> (sugar) for plant energy and <b>oxygen</b> (O₂), which is released into the atmosphere.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Two Stages: Light & Calvin",
+      "narration": "Photosynthesis unfolds in two main stages: <b>light-dependent reactions</b> (using sunlight to make ATP and NADPH) and <b>light-independent reactions</b> (the Calvin Cycle), which use these energy carriers to convert CO₂ into glucose. These stages are intricately linked.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Global Impact: Food & Air",
+      "narration": "Photosynthesis is crucial for Earth's <b>food webs</b>, as plants are primary producers, converting sunlight into usable energy for all consumers. It also constantly replenishes atmospheric <b>oxygen</b> and removes <b>carbon dioxide</b>, regulating our planet's climate.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-4.mp3"
     },
     {
       "index": 5,
-      "title": "Scene 6",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Future of Photosynthesis",
+      "narration": "Understanding and optimizing photosynthesis is crucial for addressing global challenges like <b>food security</b> and <b>climate change</b>. Research into artificial photosynthesis and crop enhancement aims to harness this natural process more efficiently for a sustainable future.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-5.mp3"
     }
   ],
   "quiz": [],
-  "featured": null,
   "publishedAt": "2026-09-20",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/1LFo7mnTdE0u"
+  "publicMetadataOnly": true
 }

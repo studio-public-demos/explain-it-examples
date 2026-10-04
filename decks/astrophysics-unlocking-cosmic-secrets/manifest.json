@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 55,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Cosmic Detective Work",
+      "narration": "Astrophysics applies <b>physics</b> to understand the universe, from tiny particles to vast galaxies. It's like being a cosmic detective, analyzing light to uncover secrets of objects billions of light-years away, revealing that 95% of the universe is still unknown.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
+      "title": "Decoding Starlight",
+      "narration": "Astrophysicists primarily study <b>light</b> and other electromagnetic radiation. This radiation acts as a cosmic messenger, carrying information about an object's temperature, composition, and motion across vast distances, much like a prism splits white light into its constituent colors.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Universe's Building Blocks",
+      "narration": "The universe is composed of incredible structures: <b>stars</b>, which are cosmic furnaces; <b>galaxies</b>, massive collections of stars; and exotic phenomena like <b>black holes</b>. These components interact through fundamental forces, shaping the cosmos we observe.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Finding New Worlds",
+      "narration": "A major breakthrough is discovering <b>exoplanets</b>, worlds orbiting other stars. Using methods like the transit method, where a planet dims its star's light, we've found over 5,000 exoplanets, some potentially habitable, expanding our search for life.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Expanding Our Cosmic View",
+      "narration": "Astrophysics helps us understand the <b>Big Bang</b>, the universe's origin, and the mysteries of <b>dark matter</b> and <b>dark energy</b>. It pushes technological limits, inspiring innovations from medical imaging to satellite communication, while revealing our place in the grand cosmic narrative.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-08",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/BDqvhzTK9w7o"
+  "publicMetadataOnly": true
 }

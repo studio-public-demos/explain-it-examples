@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 49,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Jet Engine: Thrust by Reaction",
+      "narration": "A jet engine creates forward motion, or <b>thrust</b>, by expelling a high-velocity jet of gas backward. This is a direct application of <b>Newton's Third Law</b>, pushing an aircraft forward at incredible speeds.",
+      "durationSec": 8,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Four Stages of Thrust",
+      "narration": "A jet engine operates in a continuous cycle: <b>intake</b>, <b>compression</b>, <b>combustion</b>, and <b>exhaust</b>. This process is like a powerful, continuous explosion pushing the aircraft forward.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "Key Components: Air to Power",
+      "narration": "The <b>fan</b> draws air in, the <b>compressor</b> squeezes it, the <b>combustor</b> ignites fuel, and the <b>turbine</b> extracts energy to power the compressor, all before hot gases exit the nozzle.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "Turbofan: Modern Aircraft Power",
+      "narration": "Modern airliners use <b>turbofan</b> engines, where a large fan bypasses most air around the core. This design is significantly more fuel-efficient and quieter, generating up to 100,000 pounds of thrust.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Enabling Global Connectivity",
+      "narration": "Jet engines have revolutionized travel, enabling rapid global connectivity and powering everything from commercial airliners to military jets. Their continuous evolution focuses on greater <b>efficiency</b> and reduced <b>emissions</b>.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-09-20",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/4rlddZE7ze2y"
+  "publicMetadataOnly": true
 }

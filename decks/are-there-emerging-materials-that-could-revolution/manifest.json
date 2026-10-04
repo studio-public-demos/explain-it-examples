@@ -12,44 +12,42 @@
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Drones: Lighter, Stronger, Smarter",
+      "narration": "Current drones face limits in <b>flight time</b> and <b>payload</b> due to material constraints. New materials promise to overcome these, enabling unprecedented capabilities in air travel.",
+      "durationSec": 8,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Graphene: Strength & Lightness",
+      "narration": "<b>Graphene</b>, a single layer of carbon atoms, offers exceptional strength 200x stronger than steel, yet incredibly lightweight, revolutionizing structural integrity.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "Smart Skins & Super Insulation",
+      "narration": "<b>Aerogels</b> provide ultralight insulation, while <b>self-healing polymers</b> can automatically repair minor damage, extending drone lifespan and reliability in harsh conditions.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "Metamaterials: Invisible & Efficient",
+      "narration": "<b>Metamaterials</b> manipulate electromagnetic waves, enabling drones to be stealthier or have highly efficient antennas, pushing boundaries in sensing and communication.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "The Future of Flight Unlocked",
+      "narration": "These materials unlock drones with <b>longer endurance</b>, greater payload capacity, and enhanced resilience, transforming applications from delivery to exploration and defense.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-06",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/LA79PjpkcfuY"
+  "publicMetadataOnly": true
 }

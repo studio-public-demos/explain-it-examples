@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "version": "2.1",
+    "version": "2.2",
     "product": "Explain It",
     "source": "nebula-curated",
     "last_updated": "2026-10-04",
@@ -20,8 +20,8 @@
     "listed_examples": 16,
     "unlisted_examples": 38,
     "shareUrlRole": "provenance-only",
-    "staticDecksReady": false,
-    "staticDeckBodiesPresent": 0
+    "staticDecksReady": true,
+    "staticDeckBodiesPresent": 54
   },
   "examples": [
     {

@@ -6,120 +6,118 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 15,
-  "durationSec": 150,
+  "durationSec": 176,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
+      "title": "The Underserved Credit Gap",
+      "narration": "Millions globally lack access to formal credit due to <b>limited financial history</b>, creating a significant <b>underserved segment</b>. Traditional models often exclude these individuals, hindering economic opportunity and growth.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "AI's Foundation: Alternative Data",
+      "narration": "AI models overcome data scarcity by leveraging <b>alternative data sources</b>, such as mobile usage, utility payments, and e-commerce transactions. This provides a richer, more holistic view of an individual's <b>financial behavior</b>.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Mechanism 1: Risk Profiling",
+      "narration": "AI algorithms analyze these diverse data points to construct more accurate <b>risk profiles</b>, identifying patterns indicative of creditworthiness. This goes beyond traditional scores, enabling a nuanced understanding of <b>repayment capacity</b>.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Mechanism 2: Product Design",
+      "narration": "With refined risk insights, AI can then inform the design of <b>tailored credit products</b>. This includes flexible repayment schedules, smaller loan amounts, or specific use-case loans, directly addressing the needs of <b>underserved segments</b>.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Deep Detail: Feature Engineering",
+      "narration": "A critical step is <b>feature engineering</b>, where raw alternative data is transformed into predictive variables. For instance, mobile call patterns might indicate stability, or micro-payment frequency could signal <b>repayment discipline</b>.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-4.mp3"
     },
     {
       "index": 5,
-      "title": "Scene 6",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Tradeoff: Inclusion vs. Risk",
+      "narration": "The advantage is increased <b>financial inclusion</b> for millions, but the cost is navigating higher inherent risk and ensuring robust <b>default prediction</b>. AI models must balance expanding access with maintaining portfolio health.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-5.mp3"
     },
     {
       "index": 6,
-      "title": "Scene 7",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Limitation: Data Bias & Fairness",
+      "narration": "AI models are susceptible to <b>data bias</b> present in historical datasets, potentially perpetuating existing inequalities. Ensuring <b>model fairness</b> requires careful data curation, bias detection, and ethical algorithm design to prevent discrimination.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-6.mp3"
     },
     {
       "index": 7,
-      "title": "Scene 8",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Comparison: Traditional vs. AI",
+      "narration": "Traditional credit scoring relies on limited, structured data like credit bureau reports (FICO). AI, conversely, integrates <b>unstructured and alternative data</b>, offering a broader, more dynamic assessment, especially for those with <b>thin files</b>.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-7.mp3"
     },
     {
       "index": 8,
-      "title": "Scene 9",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Application 1: Micro-Lending",
+      "narration": "In emerging markets, AI enables <b>micro-lending</b> to small businesses and individuals without formal credit histories. Models assess viability using mobile money transactions and social network data, leading to <b>economic empowerment</b>.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-8.mp3"
     },
     {
       "index": 9,
-      "title": "Scene 10",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Application 2: Small Business Loans",
+      "narration": "AI can assess small business viability by analyzing transaction data, supplier invoices, and online reviews. This allows for <b>customized loan products</b> that fuel growth for ventures traditionally overlooked by conventional lenders.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-9.mp3"
     },
     {
       "index": 10,
-      "title": "Scene 11",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Edge Case: Dynamic Risk Adjustment",
+      "narration": "AI models can implement <b>dynamic risk adjustment</b>, where loan terms adapt based on real-time behavior. For example, consistent on-time payments could trigger lower interest rates or increased credit limits, fostering <b>responsible borrowing</b>.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-10.mp3"
     },
     {
       "index": 11,
-      "title": "Scene 12",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Regulatory Compliance & Explainability",
+      "narration": "A key challenge is ensuring <b>regulatory compliance</b>, especially regarding anti-discrimination laws. AI models must be <b>explainable</b>, allowing regulators and consumers to understand lending decisions, avoiding 'black box' scenarios.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-11.mp3"
     },
     {
       "index": 12,
-      "title": "Scene 13",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Advanced Insight: Synthetic Data",
+      "narration": "To combat data scarcity and bias, <b>synthetic data generation</b> is emerging. AI creates artificial datasets that mimic real-world patterns without revealing sensitive information, aiding in model training and <b>privacy preservation</b>.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-12.mp3"
     },
     {
       "index": 13,
-      "title": "Scene 14",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Future Direction: Holistic Financial Health",
+      "narration": "The future sees AI moving beyond just credit scoring to assess <b>holistic financial health</b>, offering personalized advice and products. This proactive approach aims to improve long-term financial stability for <b>underserved populations</b>.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-13.mp3"
     },
     {
       "index": 14,
-      "title": "Scene 15",
-      "narration": "",
+      "title": "Synthesis: AI for Financial Inclusion",
+      "narration": "AI models transform raw data into actionable insights, enabling the creation of <b>inclusive credit products</b> for underserved segments. This process, while complex, holds immense potential for fostering <b>economic empowerment</b> and reducing financial disparity globally.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-14.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-09-18",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/qJYumsygW9JK"
+  "publicMetadataOnly": true
 }

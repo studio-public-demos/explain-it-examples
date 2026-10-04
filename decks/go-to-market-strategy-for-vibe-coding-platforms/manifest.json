@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 54,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
+      "title": "What are Vibe Coding Platforms?",
+      "narration": "<b>Vibe coding platforms</b> analyze the emotional tone and sentiment within a codebase, offering insights beyond traditional metrics. They help teams understand the <b>human element</b> behind the code, a crucial factor in project success.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Target Personas & Value",
+      "narration": "Our primary targets are <b>engineering managers</b> and <b>team leads</b>, seeking to improve team morale and code quality. Vibe platforms offer unique value by detecting early signs of burnout or friction, which traditional tools often miss.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "Community-Led Growth Strategy",
+      "narration": "A <b>community-led growth</b> approach is vital, focusing on developer advocacy and open-source integrations. Engaging with developer communities, offering free tools, and fostering contributions builds trust and organic adoption.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Phased GTM Rollout",
+      "narration": "Our GTM strategy follows a phased approach: first, <b>awareness building</b> through content and events, then <b>product-led growth</b> with free tiers, and finally, <b>enterprise sales</b> for larger organizations needing advanced features and support.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Future & Impact of Vibe Coding",
+      "narration": "Vibe coding platforms enable more <b>empathetic engineering</b>, leading to happier teams and more sustainable projects. This shift from purely technical metrics to human-centric insights represents a significant evolution in <b>developer tooling</b>.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-09-19",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/1Z3arb8teIzE"
+  "publicMetadataOnly": true
 }

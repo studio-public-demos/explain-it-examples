@@ -6,106 +6,104 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 13,
-  "durationSec": 130,
+  "durationSec": 140,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Earth's Dynamic Plates",
+      "narration": "The Earth's rigid outer layer, the <b>lithosphere</b>, is broken into large, moving <b>tectonic plates</b>. These plates float on the semi-fluid asthenosphere, constantly interacting and reshaping our planet's surface.",
+      "durationSec": 8,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Volcanoes: Plate Boundary Markers",
+      "narration": "Volcanic activity is intrinsically linked to <b>plate tectonics</b>, with most volcanoes forming at or near <b>plate boundaries</b>. These geological hotspots reveal where Earth's crust is actively being created, destroyed, or transformed.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "Divergent Boundaries: Spreading Apart",
+      "narration": "At <b>divergent boundaries</b>, plates pull apart, creating rifts and allowing <b>magma</b> from the mantle to rise. This process forms new oceanic crust and generates extensive volcanic chains, like the Mid-Atlantic Ridge, with effusive eruptions.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Convergent Boundaries: Subduction",
+      "narration": "At <b>convergent boundaries</b>, one plate typically slides beneath another in a process called <b>subduction</b>. The subducting plate melts, generating magma that rises through the overriding plate, forming explosive <b>volcanic arcs</b> like the Pacific Ring of Fire.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Hotspots: Anomalous Mantle Plumes",
+      "narration": "<b>Hotspots</b> are areas of intense volcanic activity not directly linked to plate boundaries, caused by stationary <b>mantle plumes</b>. As a plate moves over a hotspot, it creates a chain of volcanoes, with older volcanoes becoming extinct further from the plume.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-4.mp3"
     },
     {
       "index": 5,
-      "title": "Scene 6",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Magma Composition & Eruption Style",
+      "narration": "The <b>composition of magma</b>, influenced by its source and journey, dictates eruption style. Basaltic magma from divergent boundaries is fluid, leading to effusive eruptions, while viscous, silica-rich magma from subduction zones causes explosive eruptions.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-5.mp3"
     },
     {
       "index": 6,
-      "title": "Scene 7",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Tradeoffs: Crust Creation vs. Destruction",
+      "narration": "Divergent boundaries represent <b>crust creation</b>, adding new material to the lithosphere, while convergent boundaries involve <b>crust destruction</b> through subduction. This dynamic balance maintains Earth's overall surface area, but with different volcanic hazards.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-6.mp3"
     },
     {
       "index": 7,
-      "title": "Scene 8",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Limitations: Predicting Eruptions",
+      "narration": "Despite understanding the tectonic settings, precisely <b>predicting volcanic eruptions</b> remains challenging. Factors like magma chamber dynamics, gas accumulation, and structural weaknesses in the crust introduce significant <b>uncertainty</b>, limiting long-term forecasts.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-7.mp3"
     },
     {
       "index": 8,
-      "title": "Scene 9",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Comparison: Stratovolcano vs. Shield Volcano",
+      "narration": "<b>Stratovolcanoes</b>, common at convergent boundaries, are steep and explosive due to viscous magma. In contrast, <b>shield volcanoes</b>, typical of hotspots and divergent zones, have gentle slopes from fluid basaltic lava, leading to effusive eruptions.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-8.mp3"
     },
     {
       "index": 9,
-      "title": "Scene 10",
-      "narration": "",
+      "title": "Application: Geothermal Energy",
+      "narration": "The heat generated by <b>magma</b> near plate boundaries can be harnessed for <b>geothermal energy</b>. This renewable energy source is particularly abundant in regions like Iceland (divergent boundary) and the Pacific Ring of Fire (convergent boundaries).",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-9.mp3"
     },
     {
       "index": 10,
-      "title": "Scene 11",
-      "narration": "",
+      "title": "Application: Mineral Deposits",
+      "narration": "Volcanic activity and associated hydrothermal systems are crucial for forming valuable <b>mineral deposits</b>. As hot, mineral-rich fluids circulate through fractured rocks near volcanoes, they precipitate metals like gold, silver, and copper.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-10.mp3"
     },
     {
       "index": 11,
-      "title": "Scene 12",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Advanced Insight: Volcanic Climate Impact",
+      "narration": "Large <b>volcanic eruptions</b> can significantly impact global climate by injecting ash and aerosols into the stratosphere. These particles reflect sunlight, causing temporary global cooling, a complex feedback loop in Earth's systems.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-11.mp3"
     },
     {
       "index": 12,
-      "title": "Scene 13",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Synthesis: Earth's Volcanic Engine",
+      "narration": "Plate tectonics drives Earth's volcanic activity, creating new crust at <b>divergent zones</b>, recycling it at <b>convergent zones</b>, and revealing deep mantle processes at <b>hotspots</b>. This continuous geological engine shapes our planet and influences its climate.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-12.mp3"
     }
   ],
   "quiz": [],
-  "featured": true,
   "publishedAt": "2026-07-16",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/nY-LsZxAKibv"
+  "publicMetadataOnly": true
 }

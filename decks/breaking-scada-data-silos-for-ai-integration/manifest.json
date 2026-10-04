@@ -6,78 +6,76 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 9,
-  "durationSec": 90,
+  "durationSec": 92,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "SCADA's Isolated World",
+      "narration": "SCADA systems, critical for industrial control, often operate in <b>isolated networks</b> using proprietary protocols, creating significant <b>data silos</b> that prevent broader access.",
+      "durationSec": 8,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
+      "title": "The AI Integration Challenge",
+      "narration": "This isolation means valuable operational data, like sensor readings and control commands, remains locked away, preventing AI from accessing it for <b>advanced analytics</b> and <b>optimization</b>.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Standardizing Data with OPC UA",
+      "narration": "The first step is adopting <b>standardized communication protocols</b> like OPC UA, which provides a unified, secure framework to access data from diverse SCADA devices.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Edge Computing for Pre-processing",
+      "narration": "Deploying <b>edge computing</b> devices near SCADA systems allows for real-time data filtering, aggregation, and protocol conversion, reducing network load and latency before sending data to the cloud.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Centralized Data Lake",
+      "narration": "Processed SCADA data is then securely ingested into a <b>centralized data lake</b>, providing a scalable repository for raw and refined data from various sources, ready for AI consumption.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     },
     {
       "index": 5,
-      "title": "Scene 6",
-      "narration": "",
+      "title": "Predictive Maintenance",
+      "narration": "With integrated data, AI can analyze equipment performance trends to predict failures, enabling <b>predictive maintenance</b> and significantly reducing downtime by up to 20%.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-5.mp3"
     },
     {
       "index": 6,
-      "title": "Scene 7",
-      "narration": "",
+      "title": "Process Optimization",
+      "narration": "AI can analyze vast datasets to identify inefficiencies and suggest optimal control parameters, leading to <b>energy savings</b> and improved <b>production quality</b> across industrial processes.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-6.mp3"
     },
     {
       "index": 7,
-      "title": "Scene 8",
-      "narration": "",
+      "title": "Enhanced Cybersecurity",
+      "narration": "AI can continuously monitor integrated SCADA data for anomalous patterns, detecting potential <b>cyber threats</b> and vulnerabilities faster than traditional security systems, improving overall resilience.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-7.mp3"
     },
     {
       "index": 8,
-      "title": "Scene 9",
-      "narration": "",
+      "title": "The Integrated Future",
+      "narration": "Breaking SCADA data silos through standardization, edge computing, and data lakes unlocks the full potential of AI, transforming industrial operations with <b>smarter decisions</b> and <b>greater efficiency</b>.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-8.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-09-19",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/CQgplNE5sXIk"
+  "publicMetadataOnly": true
 }

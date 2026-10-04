@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 51,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Simulating Fluid Motion",
+      "narration": "<b>Computational Fluid Dynamics (CFD)</b> digitally simulates how liquids and gases move, offering insights into complex behaviors like air flowing over a wing or water in a pipe. This saves billions in physical testing, accelerating innovation across industries.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Discretizing the Flow",
+      "narration": "CFD works by dividing a continuous fluid domain into millions of tiny, discrete <b>\"mesh cells\"</b>, like pixels in an image. Within each cell, fundamental physics equations are solved numerically to approximate fluid behavior.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "Governing Equations",
+      "narration": "At its heart, CFD solves the <b>Navier-Stokes equations</b>, which describe fluid motion, alongside conservation laws for mass and energy. These complex partial differential equations are approximated and solved iteratively for each mesh cell.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "Optimizing Aerodynamics",
+      "narration": "In automotive design, CFD simulates <b>airflow over vehicles</b>, identifying areas of high drag or lift. Engineers use these virtual wind tunnels to optimize car shapes, improving fuel efficiency by up to 15% without costly physical prototypes.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Unlocking Future Designs",
+      "narration": "CFD enables rapid prototyping and analysis for diverse fields, from designing more efficient aircraft engines to understanding blood flow in arteries. It transforms conceptual ideas into optimized, high-performance realities, driving innovation forward.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-06",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/JI0slVAu538P"
+  "publicMetadataOnly": true
 }

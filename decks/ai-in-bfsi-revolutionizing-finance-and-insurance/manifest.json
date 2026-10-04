@@ -12,65 +12,63 @@
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
+      "title": "AI Transforms BFSI Sector",
+      "narration": "Artificial Intelligence (AI) is rapidly transforming the <b>BFSI sector</b>, offering innovative solutions for banking, financial services, and insurance. This technology enhances efficiency, security, and customer engagement across all operations.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Data-Driven Decisions",
+      "narration": "AI systems analyze massive datasets, from transaction histories to market trends, to extract valuable <b>insights</b>. This data-driven approach enables more informed and strategic decisions in real-time.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "Enhanced Fraud Detection",
+      "narration": "AI excels at <b>fraud detection</b> by continuously monitoring transactions for unusual patterns and anomalies. It can flag suspicious activities much faster and more accurately than traditional methods, enhancing security.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "Personalized Customer Experience",
+      "narration": "AI powers personalized experiences through chatbots and recommendation engines, offering tailored financial advice and product suggestions. This improves <b>customer satisfaction</b> and engagement significantly.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Risk Assessment & Underwriting",
+      "narration": "AI analyzes diverse data points, including credit scores and behavioral data, to provide more accurate <b>risk assessments</b> for loans and insurance underwriting. This leads to fairer and faster approvals.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-4.mp3"
     },
     {
       "index": 5,
-      "title": "Scene 6",
-      "narration": "",
+      "title": "Algorithmic Trading",
+      "narration": "In algorithmic trading, AI systems analyze market data in milliseconds to identify opportunities and execute trades automatically. This optimizes investment strategies and <b>maximizes returns</b>.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-5.mp3"
     },
     {
       "index": 6,
-      "title": "Scene 7",
-      "narration": "",
+      "title": "Regulatory Compliance (RegTech)",
+      "narration": "AI-powered RegTech solutions automate the monitoring of transactions and data to ensure adherence to complex financial <b>regulations</b>. This reduces compliance costs and minimizes human error.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-6.mp3"
     },
     {
       "index": 7,
-      "title": "Scene 8",
-      "narration": "",
+      "title": "Future of BFSI with AI",
+      "narration": "AI is reshaping BFSI, moving from manual processes to intelligent automation, security, and hyper-personalization. The future promises even greater <b>innovation</b> and efficiency across all financial services.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-7.mp3"
     }
   ],
   "quiz": [],
-  "featured": true,
   "publishedAt": "2026-09-22",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/tcIshMxmJeBK"
+  "publicMetadataOnly": true
 }

@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 51,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "What is GIS Terrain Mapping?",
+      "narration": "GIS terrain mapping creates <b>digital 3D models</b> of Earth's surface, transforming raw data into actionable insights. A single high-resolution terrain map can contain billions of data points, crucial for understanding landscapes.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
+      "title": "Data Acquisition Methods",
+      "narration": "Diverse sensors acquire terrain data, including <b>satellite imagery</b>, airborne LiDAR, and drone photogrammetry. LiDAR can measure elevation with centimeter-level accuracy by emitting pulsed lasers.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Digital Elevation Models (DEMs)",
+      "narration": "The core output is a <b>Digital Elevation Model (DEM)</b>, a grid of cells where each cell stores an elevation value. This structured data forms the foundation for all subsequent terrain analysis.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "Urban Planning & Disaster Response",
+      "narration": "In <b>urban planning</b>, GIS maps optimize infrastructure and visualize development. For <b>disaster response</b>, they model flood risk and identify evacuation routes, saving lives and resources with up to 90% accuracy.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Future of Spatial Intelligence",
+      "narration": "GIS terrain mapping fuels advancements in <b>autonomous navigation</b>, environmental monitoring, and smart cities. The global GIS market is projected to reach over $20 billion by 2027, enabling more intelligent and sustainable decisions.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-08",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/5aFsFLBsf0p4"
+  "publicMetadataOnly": true
 }

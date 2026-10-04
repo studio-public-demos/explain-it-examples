@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 54,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Sun's Gravity: Our Cosmic Anchor",
+      "narration": "The Solar System is a vast, gravitationally bound system centered around the <b>Sun</b>, a G-type star. Its immense mass, over 99.8% of the system's total, acts as a powerful anchor, holding everything in orbit.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
+      "title": "Planetary Orbits: A Gravitational Dance",
+      "narration": "Planets maintain stable <b>orbits</b> around the Sun, a delicate balance between the Sun's gravitational pull and the planet's forward momentum. Earth, for instance, orbits at an average speed of 30 kilometers per second.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "Inner vs. Outer Planets",
+      "narration": "Our Solar System features two distinct planetary groups: the four inner, <b>rocky planets</b> like Mars, and the four outer, <b>gas giants</b> such as Jupiter and Saturn. These differences arise from their formation distances from the Sun.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Beyond Planets: Asteroids & Comets",
+      "narration": "Beyond the main planets, the Solar System hosts millions of <b>asteroids</b>, mostly in a belt between Mars and Jupiter, and icy <b>comets</b> from the distant Kuiper Belt and Oort Cloud. These remnants offer clues about early solar system formation.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "The Ecliptic Plane: A Flat Disk",
+      "narration": "Most major objects in the Solar System orbit within a relatively flat region called the <b>ecliptic plane</b>, like marbles rolling on a dinner plate. This shared plane is a remnant of the original protoplanetary disk.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-08",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/n5oO3W-Ko1_Z"
+  "publicMetadataOnly": true
 }

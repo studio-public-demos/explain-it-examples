@@ -6,106 +6,104 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 13,
-  "durationSec": 130,
+  "durationSec": 132,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "SCADA-AI Convergence: New Risks",
+      "narration": "Integrating <b>SCADA systems</b> (🏭) with <b>AI</b> (🧠) promises efficiency but significantly expands the attack surface, introducing novel cybersecurity risks to critical infrastructure operations.",
+      "durationSec": 8,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Expanded Attack Surface",
+      "narration": "Traditional <b>air-gapped SCADA</b> (🏠) gains connectivity for AI (☁️), creating new <b>entry points</b> (🚪) for adversaries, from data ingestion to model deployment.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "AI Model Poisoning",
+      "narration": "Adversaries can inject <b>malicious data</b> (🧪) into the AI training set, leading to a <b>compromised model</b> (🧠) that issues incorrect or harmful commands to SCADA (🏭).",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "AI Evasion Attacks",
+      "narration": "Adversaries can craft <b>adversarial examples</b> (🎭) that fool the AI (🧠), causing it to misinterpret legitimate SCADA data and potentially trigger <b>malicious actions</b> (💥).",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Attribution Challenges",
+      "narration": "Pinpointing the source of an attack becomes harder with AI. Was it a <b>human operator error</b> (👤), a <b>software bug</b> (🐛), or a <b>sophisticated AI-driven cyberattack</b> (🕵️)?",
+      "durationSec": 11,
+      "audioPath": "audio/scene-4.mp3"
     },
     {
       "index": 5,
-      "title": "Scene 6",
-      "narration": "",
+      "title": "Tradeoff: Efficiency vs. Security",
+      "narration": "AI boosts <b>operational efficiency</b> (📈) and <b>predictive maintenance</b> (⚙️) in SCADA, but this comes at the cost of increased <b>cybersecurity complexity</b> (🔒) and potential vulnerabilities.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-5.mp3"
     },
     {
       "index": 6,
-      "title": "Scene 7",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Limitations: AI Vulnerabilities",
+      "narration": "AI models are inherently susceptible to <b>data bias</b> (⚖️), <b>lack of explainability</b> (❓), and <b>robustness issues</b> (🛡️), which can be exploited to compromise SCADA operations.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-6.mp3"
     },
     {
       "index": 7,
-      "title": "Scene 8",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Defense: Multi-Layered Security",
+      "narration": "Unlike traditional perimeter defense (🧱), SCADA-AI integration demands a <b>multi-layered approach</b> (🧅) including network segmentation, zero-trust, and AI-specific threat detection.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-7.mp3"
     },
     {
       "index": 8,
-      "title": "Scene 9",
-      "narration": "",
+      "title": "Application: Smart Grids",
+      "narration": "In <b>smart grids</b> (⚡), AI optimizes energy flow, but a compromised AI could cause widespread <b>power outages</b> ( blackout emoji) or manipulate energy markets, impacting millions.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-8.mp3"
     },
     {
       "index": 9,
-      "title": "Scene 10",
-      "narration": "",
+      "title": "Application: Water Treatment",
+      "narration": "AI optimizes <b>water treatment</b> (💧) and distribution. A cyberattack could poison the AI, leading to incorrect chemical dosing and posing severe <b>public health risks</b> (😷).",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-9.mp3"
     },
     {
       "index": 10,
-      "title": "Scene 11",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Edge Case: Supply Chain Attacks",
+      "narration": "A <b>supply chain attack</b> (🔗) targeting AI models or data used in SCADA can inject vulnerabilities <b>before deployment</b> (📦), making detection extremely difficult post-integration (🔍).",
+      "durationSec": 11,
+      "audioPath": "audio/scene-10.mp3"
     },
     {
       "index": 11,
-      "title": "Scene 12",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Future: AI for Defense",
+      "narration": "AI can also be a powerful <b>defense tool</b> (🛡️), enabling advanced <b>anomaly detection</b> (🚨) and rapid <b>threat response</b> (⏱️) in complex SCADA environments, turning the tables on attackers.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-11.mp3"
     },
     {
       "index": 12,
-      "title": "Scene 13",
-      "narration": "",
+      "title": "Synthesis: Secure SCADA-AI",
+      "narration": "Securing SCADA-AI requires a <b>holistic strategy</b> (✅) combining robust <b>cybersecurity practices</b> (🔒) with <b>AI-specific defenses</b> (🧠) to protect critical infrastructure from evolving threats.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-12.mp3"
     }
   ],
   "quiz": [],
-  "featured": true,
   "publishedAt": "2026-09-19",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/F3Dn7rMJ3tQl"
+  "publicMetadataOnly": true
 }

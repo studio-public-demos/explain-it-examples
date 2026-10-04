@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 54,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
+      "title": "Gravity's Ocean Embrace",
+      "narration": "Tides are the <b>rhythmic rise and fall</b> of ocean waters, primarily driven by the powerful <b>gravitational pull</b> of the Moon. This force creates a noticeable bulge in the ocean, even though the Moon is 384,400 km away.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Two Bulges, Two High Tides",
+      "narration": "The Moon's gravity pulls water towards it, creating a <b>high tide bulge</b> on the near side. Simultaneously, <b>inertial forces</b> cause a second bulge on the far side, resulting in two high tides daily.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "Earth's Rotation & Tides",
+      "narration": "As Earth <b>rotates</b> through these two bulges over a 24-hour period, any given location experiences two <b>high tides</b> and two <b>low tides</b>. This cycle is slightly longer than 24 hours due to the Moon's orbit.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Sun's Influence: Spring & Neap Tides",
+      "narration": "The Sun's gravity also affects tides; when the Sun, Moon, and Earth align (new/full moon), their combined pull creates stronger <b>spring tides</b>. When they are at right angles (quarter moons), weaker <b>neap tides</b> occur.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Predictable Rhythms, Global Impact",
+      "narration": "The <b>predictable rhythm</b> of tides is crucial for navigation, marine ecosystems, and renewable energy. Understanding these gravitational forces allows us to harness their power and navigate coastal waters safely.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-09-15",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/cMTrNJJDveez"
+  "publicMetadataOnly": true
 }

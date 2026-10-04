@@ -6,99 +6,97 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 12,
-  "durationSec": 120,
+  "durationSec": 116,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
+      "title": "The Cataclysmic K-Pg Extinction",
+      "narration": "The <b>K-Pg extinction event</b>, 66 million years ago, was primarily caused by a massive asteroid impact, plunging Earth into a devastating 'impact winter' and wiping out 75% of species.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Survival Factors: Core Principles",
+      "narration": "The core question is what traits enabled <b>survival</b> amidst such devastation, highlighting factors like adaptability, habitat, and resource access as crucial for resilience.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Size Matters: Small is Advantageous",
+      "narration": "<b>Smaller body size</b> was a critical advantage, as smaller organisms required less food and could find shelter more easily from immediate environmental hazards.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "Habitat Havens: Water & Underground",
+      "narration": "Organisms in <b>aquatic environments</b> or those capable of <b>burrowing</b> underground found protection from the immediate atmospheric and surface devastation, increasing their survival odds.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Dietary Flexibility: Generalists Thrive",
+      "narration": "<b>Dietary flexibility</b>, especially being a scavenger or generalist feeder, allowed survivors to adapt to rapidly changing food availability, unlike specialized herbivores or carnivores.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     },
     {
       "index": 5,
-      "title": "Scene 6",
-      "narration": "",
+      "title": "Trade-off: Specialist vs. Generalist",
+      "narration": "The K-Pg event highlighted the <b>trade-off</b> between specialization and generalization; highly specialized species struggled, while adaptable generalists thrived in the chaotic post-impact world.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-5.mp3"
     },
     {
       "index": 6,
-      "title": "Scene 7",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Vulnerable: Large Terrestrial Life",
+      "narration": "Large terrestrial animals, particularly non-avian dinosaurs, were highly <b>vulnerable</b> due to their immense food requirements and inability to find shelter, leading to their widespread extinction.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-6.mp3"
     },
     {
       "index": 7,
-      "title": "Scene 8",
-      "narration": "",
+      "title": "Beyond Dinosaurs: Plant Resilience",
+      "narration": "While animals faced immense challenges, many <b>plant species</b> also exhibited resilience, with some spore-producing plants quickly recolonizing devastated landscapes, forming the 'fern spike'.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-7.mp3"
     },
     {
       "index": 8,
-      "title": "Scene 9",
-      "narration": "",
+      "title": "Mammalian Radiation: Post-Impact Bloom",
+      "narration": "Small, adaptable <b>mammals</b>, which survived the K-Pg event, underwent significant <b>adaptive radiation</b>, diversifying rapidly to fill the ecological niches left vacant by the dinosaurs.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-8.mp3"
     },
     {
       "index": 9,
-      "title": "Scene 10",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Avian Success: Feathered Survivors",
+      "narration": "Many <b>avian species</b>, or birds, also survived the K-Pg event, likely due to their small size, ability to fly, and diverse diets, allowing them to rapidly adapt to new conditions.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-9.mp3"
     },
     {
       "index": 10,
-      "title": "Scene 11",
-      "narration": "",
+      "title": "The 'Fern Spike' & Ecosystem Reset",
+      "narration": "The <b>'fern spike'</b>, a temporary global dominance of ferns, is a key ecological indicator of ecosystem collapse and subsequent recovery, marking the reset after the K-Pg event.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-10.mp3"
     },
     {
       "index": 11,
-      "title": "Scene 12",
-      "narration": "",
+      "title": "Lessons for Future Resilience",
+      "narration": "Understanding K-Pg <b>resilience</b> offers crucial lessons for modern <b>conservation</b>, emphasizing the importance of diverse habitats, dietary flexibility, and protecting small, adaptable species.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-11.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-09",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/4afRnpCzK-2J"
+  "publicMetadataOnly": true
 }

@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 54,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Invisible Hand of Air",
+      "narration": "Airflow simulation, or <b>Computational Fluid Dynamics (CFD)</b>, acts as a virtual wind tunnel, crucial for designing safer, more efficient aircraft. It allows engineers to \"see\" invisible forces, saving millions in physical testing costs.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Digital Wind Tunnels",
+      "narration": "Airflow simulation transforms an aircraft's <b>digital geometry</b> into a fine <b>computational mesh</b>, like a 3D grid. Complex fluid dynamics equations are then solved across millions of these tiny cells to predict air behavior.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "The CFD Pipeline",
+      "narration": "The CFD pipeline begins with a <b>CAD model</b>, followed by generating a precise <b>computational mesh</b> around it. A powerful solver then calculates airflow, producing detailed <b>data visualizations</b> for design optimization.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "Optimizing Wing Design",
+      "narration": "Engineers use simulation to refine <b>wing designs</b>, visualizing how air moves over surfaces to maximize <b>lift</b> and minimize <b>drag</b>. This virtual testing can reduce fuel consumption by up to 5% per flight.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Future of Flight",
+      "narration": "Airflow simulation is enabling radical aircraft designs, from electric vertical take-off and landing (eVTOL) vehicles to hypersonic jets. It drives <b>innovation</b>, enhances <b>safety</b>, and accelerates the future of sustainable flight.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-09",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/BAhgxo1jEHpb"
+  "publicMetadataOnly": true
 }

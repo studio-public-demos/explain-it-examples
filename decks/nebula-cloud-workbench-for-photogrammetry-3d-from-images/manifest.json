@@ -6,78 +6,76 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 9,
-  "durationSec": 90,
+  "durationSec": 89,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Nebula Cloud Workbench Overview",
+      "narration": "The Nebula Cloud Workbench transforms multiple <b>2D images</b> into precise <b>3D models</b> and maps, leveraging the power of cloud computing for photogrammetry.",
+      "durationSec": 8,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Challenge of Local Photogrammetry",
+      "narration": "Traditional photogrammetry demands immense <b>local computing power</b> and storage, often leading to slow processing times and significant hardware investment.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Seamless Image Upload to Cloud",
+      "narration": "Users easily upload raw <b>image datasets</b> from various sources directly to Nebula's secure cloud storage, bypassing local transfer bottlenecks and hardware limits.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "Scalable Cloud Processing Engine",
+      "narration": "Nebula leverages distributed cloud resources, enabling <b>massive parallel processing</b> of image data for rapid and highly efficient 3D model reconstruction.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "High-Fidelity 3D Model Generation",
+      "narration": "The workbench generates diverse outputs like dense <b>point clouds</b>, textured <b>3D meshes</b>, and high-resolution <b>orthomosaics</b>, ensuring data versatility for various needs.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-4.mp3"
     },
     {
       "index": 5,
-      "title": "Scene 6",
-      "narration": "",
+      "title": "Construction Progress Monitoring",
+      "narration": "Construction firms use Nebula to regularly capture site images, generating <b>accurate 3D models</b> to monitor progress, track changes, and detect deviations over time.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-5.mp3"
     },
     {
       "index": 6,
-      "title": "Scene 7",
-      "narration": "",
+      "title": "Cultural Heritage Preservation",
+      "narration": "Museums and archaeologists employ Nebula to create precise <b>digital twins</b> of historical sites and artifacts, enabling preservation, detailed study, and virtual access globally.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-6.mp3"
     },
     {
       "index": 7,
-      "title": "Scene 8",
-      "narration": "",
+      "title": "Mapping & Surveying Efficiency",
+      "narration": "Surveyors and mappers utilize Nebula to process aerial imagery, rapidly generating highly accurate <b>topographic maps</b> and <b>digital elevation models</b> for diverse projects.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-7.mp3"
     },
     {
       "index": 8,
-      "title": "Scene 9",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Future: Cloud-Powered Photogrammetry",
+      "narration": "Nebula Cloud Workbench democratizes photogrammetry, moving from restrictive <b>local setups</b> to a scalable, <b>collaborative cloud environment</b> accessible to everyone, everywhere.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-8.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-08",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/Bcs0aeMQw1Q8"
+  "publicMetadataOnly": true
 }

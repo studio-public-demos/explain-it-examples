@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 49,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Immune System's Defense",
+      "narration": "Your body's <b>immune system</b> is a complex network of cells and proteins, constantly defending against invaders. It's like a highly specialized army, ready to protect you from billions of potential threats daily.",
+      "durationSec": 8,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Vaccines: A Training Exercise",
+      "narration": "Vaccines introduce a <b>harmless version</b> or part of a pathogen, like a 'mugshot' of the enemy, to your immune system. This exposure allows your body to learn to fight without experiencing the actual disease, preventing millions of deaths annually.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Key Immune Responses",
+      "narration": "Upon vaccination, your body produces <b>antibodies</b> to neutralize the threat and <b>memory cells</b> that remember the pathogen. This dual response ensures a faster, more effective defense if you encounter the real infection later.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "Real-World Protection",
+      "narration": "When a vaccinated person encounters the actual pathogen, their immune system, pre-trained by the vaccine, rapidly deploys <b>antibodies</b> and <b>memory cells</b>. This swift response prevents illness, much like a fire drill preparing a building for a real emergency.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Individual & Community Benefit",
+      "narration": "Vaccines not only protect individuals but also contribute to <b>herd immunity</b>, reducing disease spread in a community. This collective protection is crucial for safeguarding vulnerable populations, like infants and the immunocompromised, who cannot be vaccinated.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-09-15",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/TL2rvnTHHmrb"
+  "publicMetadataOnly": true
 }

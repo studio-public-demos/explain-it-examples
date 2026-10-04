@@ -6,78 +6,76 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 9,
-  "durationSec": 90,
+  "durationSec": 89,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Brain's Digital Echo 🧠",
+      "narration": "Neural Networks are computational models inspired by the <b>human brain's structure</b>, processing information through interconnected nodes to learn and make decisions. They form the backbone of modern AI advancements.",
+      "durationSec": 8,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
+      "title": "Layers of Intelligence 🏗️",
+      "narration": "All neural networks share a common structure: an <b>input layer</b>, one or more <b>hidden layers</b> for complex computations, and an <b>output layer</b> for the final result. This layered design enables hierarchical feature extraction.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Feedforward Networks: Direct Path ➡️",
+      "narration": "<b>Feedforward Neural Networks (FNNs)</b> are the simplest type, where information flows in one direction from input to output without loops. They are excellent for tasks like <b>classification</b> and regression on static datasets.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "Recurrent Networks: Memory for Sequences 🔄",
+      "narration": "<b>Recurrent Neural Networks (RNNs)</b> introduce loops, allowing information to persist across time steps, giving them 'memory.' This makes them ideal for processing <b>sequential data</b> like natural language, speech, or time series.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Convolutional Networks: Vision Masters 📷",
+      "narration": "<b>Convolutional Neural Networks (CNNs)</b> excel at processing grid-like data, especially <b>images</b>. They use convolutional layers to automatically learn spatial hierarchies of features, like edges and shapes, making them powerful for computer vision.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     },
     {
       "index": 5,
-      "title": "Scene 6",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Generative Adversarial Networks: Creators 🎨",
+      "narration": "<b>Generative Adversarial Networks (GANs)</b> consist of two competing networks: a <b>Generator</b> that creates new data, and a <b>Discriminator</b> that tries to distinguish real from fake. This adversarial process leads to highly realistic outputs.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-5.mp3"
     },
     {
       "index": 6,
-      "title": "Scene 7",
-      "narration": "",
+      "title": "Transformers: Attention for Context 📚",
+      "narration": "<b>Transformers</b> use an 'attention mechanism' to weigh the importance of different parts of the input sequence, enabling them to capture <b>long-range dependencies</b>. They are foundational for large language models and advanced NLP tasks.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-6.mp3"
     },
     {
       "index": 7,
-      "title": "Scene 8",
-      "narration": "",
+      "title": "Diverse Applications 🚀",
+      "narration": "The diverse architectures of neural networks enable a wide range of applications, from <b>image recognition</b> and <b>natural language processing</b> to medical diagnosis and autonomous driving. Each network type is a specialized tool.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-7.mp3"
     },
     {
       "index": 8,
-      "title": "Scene 9",
-      "narration": "",
+      "title": "The Evolving Landscape 📈",
+      "narration": "From simple feedforward networks to complex transformers, the field of neural networks is constantly evolving. Each architecture addresses specific challenges, pushing the boundaries of what <b>artificial intelligence</b> can achieve.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-8.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-09-20",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/q3UGyteAF4YW"
+  "publicMetadataOnly": true
 }

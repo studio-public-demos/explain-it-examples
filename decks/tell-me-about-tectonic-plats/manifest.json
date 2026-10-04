@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 52,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Earth's Shifting Skin",
+      "narration": "Our planet's outer shell isn't solid; it's a mosaic of about <b>15 major tectonic plates</b>, moving a few centimeters each year—roughly the same speed your fingernails grow!",
+      "durationSec": 8,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Driven by Mantle Convection",
+      "narration": "The plates float on the semi-fluid <b>asthenosphere</b>, propelled by powerful <b>convection currents</b> in the mantle, where hot material rises and cooler material sinks, much like boiling water.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "Three Boundary Types",
+      "narration": "Plates interact at three main boundaries: <b>divergent</b> (pulling apart), <b>convergent</b> (colliding), and <b>transform</b> (sliding past), each generating distinct geological features.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "The Pacific Ring of Fire",
+      "narration": "A prime example is the <b>Pacific Ring of Fire</b>, where numerous convergent plate boundaries create 75% of the world's volcanoes and 90% of its earthquakes.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Shaping Continents & Oceans",
+      "narration": "Plate tectonics continuously reshapes our planet, forming <b>mountains</b>, opening <b>ocean basins</b>, and causing continents to drift, profoundly influencing Earth's climate and biodiversity over geological timescales.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-16",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/SfIYk7UI-Ej2"
+  "publicMetadataOnly": true
 }

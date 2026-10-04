@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 59,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Navigating Unseen Paths",
+      "narration": "Autonomous vehicles must precisely understand <b>terrain conditions</b>, but adverse weather like snow or heavy rain severely limits traditional sensor visibility, posing a significant safety risk. This challenge is critical for reliable navigation.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Multi-Modal Sensor Fusion",
+      "narration": "To overcome visual limitations, AVs employ <b>multi-modal sensor fusion</b>, combining data from diverse sources like radar, thermal cameras, and ultrasonic sensors. This creates a more robust environmental perception than any single sensor.",
+      "durationSec": 15,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Radar & Thermal Vision",
+      "narration": "<b>Radar</b> penetrates fog and snow to detect objects and their distance, while <b>thermal cameras</b> sense heat signatures, distinguishing living beings from inanimate objects regardless of light. These are crucial for adverse conditions.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "Predictive Terrain Modeling",
+      "narration": "Advanced systems use <b>predictive modeling</b>, leveraging historical data and real-time sensor inputs to anticipate terrain changes like icy patches or deep puddles. This allows the AV to adjust its driving strategy proactively.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Enhanced Safety & Reliability",
+      "narration": "By integrating these advanced techniques, autonomous vehicles achieve significantly <b>enhanced safety</b> and reliability, enabling them to operate confidently in diverse and challenging weather conditions. This expands their operational design domain.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-06",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/E_6rY25ORQ0c"
+  "publicMetadataOnly": true
 }

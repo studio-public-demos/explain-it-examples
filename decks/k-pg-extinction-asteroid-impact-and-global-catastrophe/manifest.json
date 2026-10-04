@@ -6,113 +6,111 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 14,
-  "durationSec": 140,
+  "durationSec": 164,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
+      "title": "The Great Extinction Trigger",
+      "narration": "Around 66 million years ago, a catastrophic event plunged Earth into a devastating crisis, leading to the <b>Cretaceous-Paleogene (K-Pg) mass extinction</b> and wiping out 75% of life.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Chicxulub Impact",
+      "narration": "The primary cause was a massive 10-15 km wide <b>Chicxulub asteroid</b> striking the Yucatán Peninsula, creating a 180 km wide crater and releasing energy equivalent to billions of atomic bombs.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Immediate Devastation",
+      "narration": "The impact generated massive <b>shockwaves</b>, superheated ejecta, and colossal <b>tsunamis</b> up to 100 meters high, causing immediate regional destruction and igniting widespread <b>wildfires</b> across continents.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Atmospheric Blockage",
+      "narration": "Vast quantities of dust, soot, and sulfur aerosols were ejected into the atmosphere, forming a dense, global cloud layer that effectively <b>blocked sunlight</b> from reaching Earth's surface for months to years.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Impact Winter & Photosynthesis Collapse",
+      "narration": "The prolonged darkness led to a global <b>impact winter</b>, causing temperatures to plummet and halting <b>photosynthesis</b>. This collapsed the base of the food web, starving both herbivores and carnivores across ecosystems.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-4.mp3"
     },
     {
       "index": 5,
-      "title": "Scene 6",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Global vs. Local Effects",
+      "narration": "While the initial impact caused immense <b>local devastation</b> (tsunamis, shockwaves), the more widespread and prolonged damage came from the <b>global climate disruption</b>, particularly the impact winter, affecting all ecosystems.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-5.mp3"
     },
     {
       "index": 6,
-      "title": "Scene 7",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Ocean Acidification",
+      "narration": "The impact also released vast amounts of sulfur into the atmosphere, forming sulfuric acid that precipitated as <b>acid rain</b>. This led to widespread <b>ocean acidification</b>, dissolving shells and skeletons of marine organisms, devastating marine food webs.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-6.mp3"
     },
     {
       "index": 7,
-      "title": "Scene 8",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Volcanism vs. Impact",
+      "narration": "While massive <b>volcanic activity</b> (Deccan Traps) occurred concurrently, its gradual effects differed from the asteroid's sudden, catastrophic impact. The impact delivered a rapid, devastating blow that overwhelmed ecosystems immediately.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-7.mp3"
     },
     {
       "index": 8,
-      "title": "Scene 9",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Dinosaur Extinction",
+      "narration": "Large, non-avian dinosaurs, especially herbivores, struggled immensely due to the collapse of plant life. Their size and metabolic needs made them particularly vulnerable to the rapid and severe <b>environmental changes</b>.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-8.mp3"
     },
     {
       "index": 9,
-      "title": "Scene 10",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Mammalian Rise",
+      "narration": "Small, often burrowing mammals, birds, and some reptiles, with lower metabolic rates and diverse diets, were better equipped to survive the harsh conditions. This paved the way for the <b>Cenozoic Era</b> and mammalian diversification.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-9.mp3"
     },
     {
       "index": 10,
-      "title": "Scene 11",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Survival Niches",
+      "narration": "Species in aquatic environments, those with <b>dormancy</b> capabilities, or those relying on detritus rather than photosynthesis, had a higher chance of survival. These niches offered refuge from the immediate and prolonged surface devastation.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-10.mp3"
     },
     {
       "index": 11,
-      "title": "Scene 12",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Multi-faceted Catastrophe",
+      "narration": "The K-Pg extinction was not a single event but a cascade of interconnected environmental disasters: impact, wildfires, tsunamis, impact winter, and ocean acidification, creating a <b>perfect storm</b> for life on Earth.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-11.mp3"
     },
     {
       "index": 12,
-      "title": "Scene 13",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Geological Evidence",
+      "narration": "The <b>iridium anomaly</b>, shocked quartz, and microtektites found globally at the K-Pg boundary layer provide compelling <b>geological evidence</b> for a massive extraterrestrial impact, corroborating the Chicxulub event.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-12.mp3"
     },
     {
       "index": 13,
-      "title": "Scene 14",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Future Impact Preparedness",
+      "narration": "Understanding the K-Pg event informs our strategies for <b>planetary defense</b>. Detecting and potentially deflecting future asteroid threats is crucial, as even smaller impacts could cause significant regional or global devastation.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-13.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-09",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/c6LPuyMNG1mo"
+  "publicMetadataOnly": true
 }

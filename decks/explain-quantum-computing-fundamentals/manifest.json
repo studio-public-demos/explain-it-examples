@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 55,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Beyond Classical Bits",
+      "narration": "Quantum computers leverage bizarre quantum mechanics to solve problems classical machines can't, like factoring massive numbers exponentially faster. This could revolutionize fields from medicine to materials science.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
+      "title": "The Power of Superposition",
+      "narration": "Unlike classical bits, a <b>qubit</b> can exist in a superposition of both 0 and 1 simultaneously, like a spinning coin before it lands. This allows quantum computers to explore many possibilities at once.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Entanglement & Interference",
+      "narration": "<b>Entanglement</b> links qubits so their fates are intertwined, even across vast distances, enabling complex calculations. <b>Quantum interference</b> then amplifies correct answers while canceling out incorrect ones.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Simulating Molecules",
+      "narration": "Quantum computers can precisely simulate complex <b>molecular interactions</b>, accelerating drug discovery and material science. This allows researchers to design new medicines or advanced materials with unprecedented accuracy.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Unlocking New Frontiers",
+      "narration": "Quantum computing promises to solve currently intractable problems, from optimizing global logistics to breaking modern encryption. While still nascent, it's a powerful tool for scientific discovery and technological advancement.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-07",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/01eidUZwi-_h"
+  "publicMetadataOnly": true
 }

@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 56,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
+      "title": "Battery Basics: Chemical Powerhouses",
+      "narration": "Batteries are ingenious devices that convert stored <b>chemical energy</b> directly into <b>electrical energy</b>, powering everything from your phone to electric cars. This conversion happens through a controlled chemical reaction.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Core Components of a Battery",
+      "narration": "Every battery has four key parts: a <b>negative electrode</b> (anode), a <b>positive electrode</b> (cathode), a <b>separator</b> to prevent short circuits, and an <b>electrolyte</b> that allows ions to flow.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Discharge: Electrons Flow, Ions Move",
+      "narration": "During discharge, the anode releases <b>electrons</b> that flow through an external circuit, powering a device, while <b>ions</b> simultaneously travel through the electrolyte to the cathode, maintaining charge balance.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Recharging: Reversing the Flow",
+      "narration": "For <b>rechargeable batteries</b>, an external power source forces electrons and ions back to their original electrodes. This reverses the chemical reaction, restoring the battery's <b>chemical potential energy</b>.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Impact: Powering Our Modern World",
+      "narration": "Battery technology is crucial for our modern world, enabling everything from portable <b>mobile devices</b> to sustainable <b>electric vehicles</b> and large-scale <b>grid energy storage</b>, driving innovation and reducing carbon emissions.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-09-15",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/UIWV_trJoFos"
+  "publicMetadataOnly": true
 }

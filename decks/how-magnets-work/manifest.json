@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 52,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Invisible Force: Magnets Attract",
+      "narration": "Magnets exert an invisible force, attracting or repelling certain materials without direct contact. This fundamental force is responsible for everything from holding notes on your fridge to guiding compasses, a phenomenon known since ancient times.",
+      "durationSec": 8,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
+      "title": "Electron Spin: The Tiny Magnets",
+      "narration": "The secret to magnetism lies in <b>electrons</b>, which behave like tiny spinning magnets. In most materials, these spins cancel out, but in ferromagnetic substances like iron, their spins align, creating a net magnetic moment.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Magnetic Domains: Aligned Micro-Magnets",
+      "narration": "Within ferromagnetic materials, groups of atoms form <b>magnetic domains</b>, where electron spins are naturally aligned. When unmagnetized, these domains point randomly, but an external field can align them, creating a powerful <b>net magnetic field</b>.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "Electromagnets: Controlled Magnetism",
+      "narration": "An <b>electromagnet</b> demonstrates how electricity and magnetism are linked: passing an electric current through a coil of wire creates a magnetic field. This field can be turned on or off, and its strength adjusted, making it vital for cranes and MRI machines.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Applications: Powering Our World",
+      "narration": "Magnetism is fundamental to countless modern technologies. From <b>electric motors</b> and <b>generators</b> that power our homes to <b>MRI scanners</b> for medical diagnostics and <b>hard drives</b> for data storage, magnets are indispensable to our daily lives.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-09-15",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/C4GvvwYFdc85"
+  "publicMetadataOnly": true
 }

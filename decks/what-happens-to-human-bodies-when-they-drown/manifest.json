@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 53,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Silent Submersion",
+      "narration": "Drowning is a rapid and often silent process where the body's airways are submerged in liquid, leading to <b>respiratory failure</b>. It is the third leading cause of unintentional injury death worldwide, claiming over 236,000 lives annually.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
+      "title": "The Breath-Holding Reflex",
+      "narration": "Upon submersion, the body instinctively holds its breath (apnea), but this is quickly overcome by an overwhelming urge to breathe. Involuntary gasping then causes <b>water to enter the airways</b>, initiating the drowning process.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "Laryngospasm & Hypoxia",
+      "narration": "Water in the larynx triggers a protective <b>laryngospasm</b>, reflexively closing the vocal cords to prevent further water entry. This blockage, however, also prevents air, leading to rapid <b>hypoxia</b> as oxygen levels in the blood plummet.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Organ Failure Sequence",
+      "narration": "As oxygen depletes, the brain suffers first, leading to unconsciousness within 1-2 minutes. The heart, deprived of oxygen, then enters <b>cardiac arrest</b>, typically within 5-10 minutes, causing irreversible organ damage.",
+      "durationSec": 11,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Prevention & Response",
+      "narration": "Understanding the drowning sequence emphasizes the critical need for <b>prevention</b>, like swimming lessons and supervision, and rapid <b>emergency response</b>. Immediate CPR and medical attention significantly improve survival chances.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-09",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/fqpVtNun-kHF"
+  "publicMetadataOnly": true
 }

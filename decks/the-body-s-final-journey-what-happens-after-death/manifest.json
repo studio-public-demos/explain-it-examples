@@ -6,99 +6,97 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 12,
-  "durationSec": 120,
+  "durationSec": 125,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "The Body's Final Journey",
+      "narration": "Death initiates a complex series of biological and ecological processes, transforming the human body and returning its components to the natural world.",
+      "durationSec": 8,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Cessation of Life Functions",
+      "narration": "Death marks the irreversible cessation of vital functions like circulation and brain activity, leading to immediate changes such as <b>algor mortis</b> (cooling) and <b>livor mortis</b> (blood pooling).",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Autolysis: Cellular Self-Digestion",
+      "narration": "Post-mortem, cells begin to break down through <b>autolysis</b>, where internal enzymes digest cellular components, releasing fluids and initiating tissue degradation.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "Putrefaction: Microbial Action",
+      "narration": "Gut bacteria proliferate and spread throughout the body, causing <b>putrefaction</b>, which produces gases like methane and hydrogen sulfide, leading to bloating and distinct odors.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Stages of Decomposition",
+      "narration": "Decomposition progresses through distinct stages: <b>fresh</b>, <b>bloat</b>, <b>active decay</b>, <b>advanced decay</b>, and finally <b>skeletonization</b>, each characterized by specific physical changes.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-4.mp3"
     },
     {
       "index": 5,
-      "title": "Scene 6",
-      "narration": "",
+      "title": "Speed vs. Preservation",
+      "narration": "Environmental factors like temperature and humidity significantly influence decomposition rates; for example, cold or dry conditions can naturally <b>preserve</b> tissues, slowing the process dramatically.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-5.mp3"
     },
     {
       "index": 6,
-      "title": "Scene 7",
-      "narration": "",
+      "title": "Limitations: Extreme Environments",
+      "narration": "Decomposition is significantly altered in extreme environments; cold, dry deserts can lead to mummification, while anaerobic conditions in water can result in <b>adipocere</b> formation.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-6.mp3"
     },
     {
       "index": 7,
-      "title": "Scene 8",
-      "narration": "",
+      "title": "Natural vs. Artificial Processes",
+      "narration": "Natural decomposition returns nutrients to the ecosystem, contrasting with artificial processes like <b>cremation</b>, which rapidly reduces the body to ash, or embalming, which slows decay for burial.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-7.mp3"
     },
     {
       "index": 8,
-      "title": "Scene 9",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Application: Forensic Science",
+      "narration": "Forensic scientists analyze decomposition stages, insect activity, and environmental factors to estimate <b>Post-Mortem Interval</b> (PMI) and reconstruct events surrounding death.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-8.mp3"
     },
     {
       "index": 9,
-      "title": "Scene 10",
-      "narration": "",
+      "title": "Anthropology & Archaeology",
+      "narration": "Skeletal remains provide invaluable data for anthropologists and archaeologists, revealing insights into ancient diets, diseases, lifestyles, and <b>cultural burial practices</b>.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-9.mp3"
     },
     {
       "index": 10,
-      "title": "Scene 11",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Edge Case: The Microbiome's Role",
+      "narration": "The body's unique post-mortem microbiome, or <b>thanatomicrobiome</b>, plays a crucial role in decomposition chemistry, offering new avenues for forensic analysis and understanding decay.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-10.mp3"
     },
     {
       "index": 11,
-      "title": "Scene 12",
-      "narration": "",
+      "title": "Synthesis: Ecological Recycling",
+      "narration": "Ultimately, decomposition is an essential ecological process, recycling organic matter and nutrients back into the environment, sustaining new life and completing the <b>natural cycle</b>.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-11.mp3"
     }
   ],
   "quiz": [],
-  "featured": true,
   "publishedAt": "2026-07-09",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/zoDAzk7104c1"
+  "publicMetadataOnly": true
 }

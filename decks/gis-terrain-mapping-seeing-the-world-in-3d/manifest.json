@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 56,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Mapping Earth's Surface in 3D",
+      "narration": "<b>GIS terrain mapping</b> creates detailed 3D models of Earth's surface, crucial for understanding landscapes. It transforms raw data into actionable insights, helping us visualize complex topography for diverse applications.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Acquiring Terrain Data",
+      "narration": "Terrain data is primarily acquired using remote sensing technologies like <b>LiDAR</b> (Light Detection and Ranging) or satellite radar. These systems emit pulses and measure their return time, calculating precise elevation points across vast areas.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "Digital Elevation Models (DEMs)",
+      "narration": "The core output is a <b>Digital Elevation Model (DEM)</b>, a grid of regularly spaced elevation values. Each cell represents a specific height, forming the foundation for analyzing slope, aspect, and other topographic features.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Applications: Urban Planning & Hydrology",
+      "narration": "In <b>urban planning</b>, GIS terrain models help identify optimal building sites and analyze water runoff patterns. Hydrologists use them to predict flood risks and design effective drainage systems, saving lives and infrastructure.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Impact and Future of Terrain Mapping",
+      "narration": "GIS terrain mapping has revolutionized fields from navigation to environmental conservation, enabling smarter decisions. Future advancements, like real-time mapping and AI integration, promise even more dynamic and precise understanding of our changing planet.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-05",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/FHuR8tvChlHi"
+  "publicMetadataOnly": true
 }

@@ -6,106 +6,104 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 13,
-  "durationSec": 130,
+  "durationSec": 141,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Bridging Continuous & Discrete Models",
+      "narration": "Combining the <b>Lattice Element Method (LEM)</b> and <b>Finite Element Method (FEM)</b> allows engineers to model complex systems that exhibit both continuous deformation and discrete fracture behaviors.",
+      "durationSec": 9,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
+      "title": "LEM: Discrete Element Modeling",
+      "narration": "LEM represents materials as a network of <b>discrete particles</b> or elements connected by bonds, making it highly effective for simulating <b>fracture initiation</b> and propagation in brittle materials.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "FEM: Continuous Domain Analysis",
+      "narration": "FEM discretizes a continuous domain into <b>finite elements</b>, solving partial differential equations to analyze <b>stress, strain, and deformation</b>, making it ideal for elastic and plastic material behaviors.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
+      "title": "Synergy: Strengths Combined",
+      "narration": "Combining LEM and FEM allows us to leverage LEM's strength in modeling <b>discontinuities</b> and FEM's efficiency for <b>continuous regions</b>, creating a more comprehensive and accurate simulation.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Coupling Mechanism at Interface",
+      "narration": "The coupling typically occurs at an <b>interface boundary</b> where displacements and forces are transferred between the LEM and FEM domains, often through a <b>kinematic constraint</b> or penalty method.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-4.mp3"
     },
     {
       "index": 5,
-      "title": "Scene 6",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Interface Challenges & Stability",
+      "narration": "Numerical challenges at the interface include ensuring <b>mesh compatibility</b>, managing different degrees of freedom, and preventing <b>numerical instabilities</b> that can arise from dissimilar solution schemes.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-5.mp3"
     },
     {
       "index": 6,
-      "title": "Scene 7",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Tradeoffs: Accuracy vs. Complexity",
+      "narration": "The primary advantage is enhanced <b>accuracy</b> for multi-physics problems, but the cost is increased <b>modeling complexity</b>, higher computational overhead, and the need for specialized coupling algorithms.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-6.mp3"
     },
     {
       "index": 7,
-      "title": "Scene 8",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Limitations & Failure Modes",
+      "narration": "The coupled system can fail if the <b>interface conditions</b> are not properly enforced, leading to energy leakage or non-physical oscillations, especially in highly dynamic or <b>non-linear problems</b>.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-7.mp3"
     },
     {
       "index": 8,
-      "title": "Scene 9",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Comparison to Single Method",
+      "narration": "Unlike using only FEM (struggles with fracture) or only LEM (inefficient for large continuous domains), the hybrid approach offers a <b>balanced solution</b> for complex multi-scale problems.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-8.mp3"
     },
     {
       "index": 9,
-      "title": "Scene 10",
-      "narration": "",
+      "title": "Application: Fracture Mechanics",
+      "narration": "In <b>fracture mechanics</b>, LEM can model crack initiation and propagation in a localized region, while FEM efficiently handles the surrounding bulk material's <b>elastic response</b>, saving computational resources.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-9.mp3"
     },
     {
       "index": 10,
-      "title": "Scene 11",
-      "narration": "",
+      "title": "Application: Geotechnical Engineering",
+      "narration": "In <b>geotechnical simulations</b>, LEM can model soil particle interactions and granular flow near foundations, while FEM efficiently simulates the larger-scale <b>soil-structure interaction</b> and ground deformation.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-10.mp3"
     },
     {
       "index": 11,
-      "title": "Scene 12",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Advanced Insights: Multi-Scale Coupling",
+      "narration": "Advanced coupling techniques involve <b>adaptive meshing</b> and dynamic interface adjustments, allowing the simulation to transition between LEM and FEM based on local deformation and <b>damage criteria</b>.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-11.mp3"
     },
     {
       "index": 12,
-      "title": "Scene 13",
-      "narration": "",
+      "title": "Synthesis: A Powerful Hybrid",
+      "narration": "Coupled LEM-FEM creates a powerful hybrid simulation tool, enabling engineers to tackle complex problems with <b>unprecedented detail</b> and accuracy, pushing the boundaries of computational mechanics.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-12.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-07",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/qeEavk4lT7nR"
+  "publicMetadataOnly": true
 }

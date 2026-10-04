@@ -6,50 +6,48 @@
   "tags": [],
   "level": "Intermediate",
   "sceneCount": 5,
-  "durationSec": 50,
+  "durationSec": 56,
   "thumbnail": "thumbnail.svg",
   "deckHtmlPath": "deck-content.html",
   "scenes": [
     {
       "index": 0,
-      "title": "Scene 1",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Quantum's Problem-Solving Edge",
+      "narration": "Quantum computers excel at problems intractable for classical machines, leveraging phenomena like <b>superposition</b> and <b>entanglement</b>. They can explore vast solution spaces exponentially faster than traditional methods.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-0.mp3"
     },
     {
       "index": 1,
-      "title": "Scene 2",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Simulating Complex Systems",
+      "narration": "Quantum computers naturally simulate quantum mechanics, making them ideal for understanding molecular interactions. This is crucial for <b>drug discovery</b> and <b>new material design</b>, where classical approximations fail.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-1.mp3"
     },
     {
       "index": 2,
-      "title": "Scene 3",
-      "narration": "",
+      "title": "Optimization & Search",
+      "narration": "Quantum algorithms like Grover's can speed up unstructured database searches quadratically, while others tackle complex <b>optimization problems</b> across logistics and finance, finding better solutions faster.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-2.mp3"
     },
     {
       "index": 3,
-      "title": "Scene 4",
-      "narration": "",
-      "durationSec": 10,
-      "audioPath": null
+      "title": "Breaking Modern Cryptography",
+      "narration": "Shor's algorithm can efficiently factor large numbers, posing a significant threat to current <b>public-key encryption</b> like RSA. This highlights quantum computing's impact on cybersecurity, potentially breaking existing digital locks.",
+      "durationSec": 12,
+      "audioPath": "audio/scene-3.mp3"
     },
     {
       "index": 4,
-      "title": "Scene 5",
-      "narration": "",
+      "title": "Unlocking New Frontiers",
+      "narration": "Quantum computing promises breakthroughs in AI, finance, and logistics, enabling solutions for challenges previously deemed impossible. It's a paradigm shift for <b>computational science</b>, offering unprecedented problem-solving capabilities.",
       "durationSec": 10,
-      "audioPath": null
+      "audioPath": "audio/scene-4.mp3"
     }
   ],
   "quiz": [],
-  "featured": false,
   "publishedAt": "2026-07-07",
   "source": "nebula-curated",
-  "publicMetadataOnly": true,
-  "shareUrl": "https://app.nebulacloud.studio/share/USwNwu3xi9Eb"
+  "publicMetadataOnly": true
 }
