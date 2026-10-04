@@ -2,83 +2,138 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Explain It — Example Deck</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Spline+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <!--
-  Static Public Examples deck viewer — presentation follows Studio Web "Explore Examples"
-  (DeckRenderer) conventions, implemented in plain static HTML/CSS driven ONLY by the
-  deck's own postMessage protocol. It does NOT copy buildDeckHtml/the React renderer, makes
-  NO production/API/share calls, requires no auth.
+  Static Public Examples deck viewer.
 
-  The visual deck + its certified in-deck controls (progress bar, prev/play/next, narration,
-  scene counter) are the self-contained deck-content.html (certified-renderer output) running
-  in STANDALONE mode inside a sandboxed iframe. This viewer adds the outer Explore Examples
-  conventions the platform wraps around it: title bar, a Replay action, a completion overlay
-  (closure + "N scenes completed" + Replay), paper/Fraunces typography, responsive frame,
-  and loading/error treatment. Local per-scene audio is synced to deck:sceneChange.
+  Presentation faithfully mirrors the Studio Web "Explore Examples" / public /share
+  page (DeckRenderer): a visual-only sandboxed iframe stage + an EXTERNAL footer that
+  owns all playback chrome — narration line, "Scene N/total" + progress bar + elapsed
+  timer, and the control row (prev / play-pause / next centered; mute / speed /
+  fullscreen / replay right) — plus a dark completion overlay.
+
+  It does NOT copy the React renderer or buildDeckHtml, makes NO production/API/share
+  calls, and requires no auth. The deck is the certified-renderer output (deck-content.html)
+  running in CONTROLLED mode inside the iframe; this viewer drives it over the same
+  postMessage protocol the platform uses (deck:ready / deck:sceneChange / deck:complete
+  <-> deck:command{play,pause,next,prev,goTo,setSpeed,holdTimer,releaseTimer}). The deck's
+  own in-iframe chrome (narration/counter/progress/nav) is hidden so the external footer is
+  the single source of controls — exactly as the platform does via prepareDeckHtml().
+  Local per-scene audio is synced to deck:sceneChange and drives advancement when present.
 -->
 <style>
   :root{
     --paper:#f4efe6;--paper-2:#ede6d8;--ink:#23201b;--ink-soft:#5d564a;
-    --terra:#c9603f;--teal:#2f7d77;--line:#cbbfa9;--shadow:rgba(40,32,20,.18);
-    --overlay:#1b2430;--overlay-ink:#F5F7FA;
+    --terra:#c9603f;--teal:#2f7d77;--line:#E5E7EB;--line-warm:#cbbfa9;
+    --shadow:rgba(40,32,20,.14);--overlay:#0f172a;--overlay-ink:#F5F7FA;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   html,body{height:100%}
-  body{background:var(--paper);color:var(--ink);font-family:"Spline Sans",system-ui,sans-serif;display:flex;flex-direction:column;height:100svh;overflow:hidden;background-image:radial-gradient(circle at 18% 20%,rgba(201,96,63,.06),transparent 40%),radial-gradient(circle at 82% 78%,rgba(47,125,119,.06),transparent 42%)}
-  .topbar{display:flex;align-items:center;gap:14px;padding:12px 20px;border-bottom:1px solid var(--line);flex:0 0 auto;background:rgba(244,239,230,.9);backdrop-filter:saturate(1.1) blur(4px)}
-  .topbar .back{color:var(--terra);text-decoration:none;font-weight:600;font-size:13px;white-space:nowrap}
-  .topbar .meta{flex:1;min-width:0}
-  .topbar .kicker{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--terra);opacity:.65;font-weight:600}
-  .topbar .title{font-family:"Fraunces",Georgia,serif;font-weight:500;font-size:18px;color:var(--ink);line-height:1.1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .stage-wrap{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;padding:20px;position:relative}
-  .deck-frame{position:relative;width:min(100%,1200px);aspect-ratio:16/9;max-height:100%;background:var(--paper);border:1px solid var(--line);border-radius:16px;box-shadow:0 30px 70px -30px var(--shadow),0 1px 0 rgba(255,255,255,.5) inset;overflow:hidden}
-  iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:var(--paper)}
-  .actionbar{flex:0 0 auto;display:flex;align-items:center;justify-content:center;gap:10px;padding:10px;border-top:1px solid var(--line)}
-  .act{display:inline-flex;align-items:center;gap:7px;min-height:40px;padding:8px 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper-2);color:var(--ink);font:inherit;font-size:14px;font-weight:500;cursor:pointer;transition:.18s}
-  .act:hover{background:var(--terra);color:#fff;border-color:var(--terra)}
-  .act svg{width:15px;height:15px}
-  #loading,#err{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center;padding:40px}
-  #err{display:none}
-  #loading .spin{width:34px;height:34px;border:3px solid var(--line);border-top-color:var(--terra);border-radius:50%;animation:sp 0.9s linear infinite}
+  body{background:var(--paper);color:var(--ink);font-family:"Spline Sans",system-ui,sans-serif;display:flex;flex-direction:column;height:100svh;overflow:hidden}
+
+  /* ── Branded top bar (static equivalent of the share-page header) ── */
+  .topbar{display:flex;align-items:center;gap:12px;padding:10px 20px;border-bottom:1px solid var(--line);flex:0 0 auto;background:#fff}
+  .topbar .logo-link{flex:0 0 auto;display:inline-flex;align-items:center}
+  .topbar .logo-link img{height:30px;width:auto;display:block}
+  .topbar .back{display:inline-flex;align-items:center;gap:6px;color:var(--terra);text-decoration:none;font-weight:600;font-size:13px;white-space:nowrap;min-height:36px}
+  .topbar .sep{color:var(--ink-soft);opacity:.35}
+  .topbar .meta{flex:1;min-width:0;display:flex;flex-direction:column}
+  .topbar .kicker{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--terra);opacity:.7;font-weight:600}
+  .topbar .title{font-family:"Fraunces",Georgia,serif;font-weight:500;font-size:16px;color:var(--ink);line-height:1.15;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  @media (max-width:640px){ .topbar .back{display:none} .topbar .sep{display:none} .topbar .title{font-size:14px} .topbar .logo-link img{height:26px} }
+
+  /* ── Visual stage ── */
+  .stage-wrap{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;padding:12px;position:relative;background:var(--paper)}
+  .deck-frame{position:relative;width:100%;height:100%;background:var(--paper);border:1px solid rgba(203,191,169,.6);border-radius:16px;box-shadow:0 1px 3px var(--shadow);overflow:hidden}
+  iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:var(--paper);opacity:0;transition:opacity .3s ease-in}
+  iframe.ready{opacity:1}
+  .watermark{position:absolute;bottom:8px;right:12px;font-size:10px;font-weight:500;color:rgba(35,32,27,.5);pointer-events:none;user-select:none}
+
+  /* ── Footer: narration + progress + controls ── */
+  .footer{flex:0 0 auto;display:flex;flex-direction:column;gap:6px;padding:8px 16px calc(8px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--line);background:var(--paper-2)}
+  .narration{text-align:center;min-height:0;max-height:18vh;overflow-y:auto;padding:0 8px}
+  .narration p{font-size:13px;line-height:1.45;color:var(--ink-soft);max-width:620px;margin:0 auto;overflow-wrap:break-word}
+  .narration b{color:var(--ink);font-weight:600}
+  .progress-row{display:flex;align-items:center;gap:10px;padding:0 2px}
+  .progress-row .label{font-size:11px;color:var(--ink-soft);font-weight:500;white-space:nowrap}
+  .progress-track{flex:1;height:4px;background:var(--line-warm);border-radius:999px;overflow:hidden}
+  .progress-fill{height:100%;background:var(--terra);border-radius:999px;width:0;transition:width .3s}
+  .progress-row .time{font-size:11px;color:var(--ink-soft);font-variant-numeric:tabular-nums;white-space:nowrap}
+  .controls{display:flex;align-items:center}
+  .controls .spacer{flex:1}
+  .primary{display:flex;align-items:center;gap:6px}
+  .secondary{flex:1;display:flex;align-items:center;justify-content:flex-end;gap:2px}
+  .ctl{display:inline-flex;align-items:center;justify-content:center;border:0;background:transparent;color:var(--ink-soft);cursor:pointer;border-radius:999px;transition:.15s;font:inherit}
+  .ctl:hover{color:var(--ink);background:rgba(201,96,63,.1)}
+  .ctl svg{width:16px;height:16px}
+  .ctl.icon{width:40px;height:40px;min-width:40px}
+  .ctl.icon-sm{width:40px;height:40px;min-width:40px}
+  .ctl.play{width:48px;height:48px;min-width:48px;background:var(--ink);color:var(--paper)}
+  .ctl.play:hover{background:#000;color:#fff}
+  .ctl.play svg{width:18px;height:18px}
+  .ctl.speed{width:40px;min-width:40px;height:40px;font-size:12px;font-weight:600}
+  .disclaimer{text-align:center;font-size:10px;color:rgba(93,86,74,.55);padding-top:2px}
+
+  /* ── Loading / error / completion overlays ── */
+  #loading,#err,#done{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center;padding:32px}
+  #err,#done{display:none}
+  #loading .spin{width:32px;height:32px;border:3px solid var(--line-warm);border-top-color:var(--terra);border-radius:50%;animation:sp .9s linear infinite}
   @keyframes sp{to{transform:rotate(360deg)}}
-  #loading p,#err p{color:var(--ink-soft);font-size:14px}
-  #err h2{font-family:"Fraunces",Georgia,serif;font-weight:500;font-size:22px;color:var(--ink)}
+  #loading p{color:var(--ink-soft);font-size:13px}
+  #err h2{font-family:"Fraunces",Georgia,serif;font-weight:500;font-size:20px;color:var(--ink)}
+  #err p{color:var(--ink-soft);font-size:13px}
   #err a{color:var(--terra)}
-  #done{position:absolute;inset:0;display:none;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:rgba(27,36,48,.92);color:var(--overlay-ink);text-align:center;padding:40px;border-radius:16px}
-  #done .check{width:48px;height:48px;border-radius:50%;background:var(--teal);display:flex;align-items:center;justify-content:center}
-  #done .check svg{width:26px;height:26px;stroke:#fff;fill:none;stroke-width:2.5}
-  #done h3{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:21px}
-  #done .sub{font-size:13px;color:rgba(245,247,250,.6)}
+  #done{background:rgba(15,23,42,.92);color:var(--overlay-ink);border-radius:16px}
+  #done .check{width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(37,99,235,.2);border:2px solid rgba(37,99,235,.5)}
+  #done .check svg{width:30px;height:30px;stroke:#2563EB;fill:none;stroke-width:2.5}
+  #done h3{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:20px}
+  #done .summary{font-size:13px;line-height:1.5;color:rgba(245,247,250,.7);max-width:360px}
   #done .scenes{font-size:12px;color:rgba(245,247,250,.4)}
-  #done .replay{margin-top:6px;display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:10px 22px;border:0;border-radius:10px;background:var(--terra);color:#fff;font:inherit;font-size:14px;font-weight:600;cursor:pointer}
-  #done .replay svg{width:16px;height:16px;stroke:#fff;fill:none;stroke-width:2}
+  #done .replay{margin-top:4px;display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:11px 24px;border:1px solid rgba(245,247,250,.2);border-radius:12px;background:rgba(245,247,250,.12);color:var(--overlay-ink);font:inherit;font-size:14px;font-weight:500;cursor:pointer}
+  #done .replay:hover{background:rgba(245,247,250,.2)}
+  #done .replay svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2}
+
+  /* ── Responsive: portrait mobile ── */
   @media (max-width:640px){
+    .topbar{padding:9px 14px}
+    .topbar .title{font-size:14px}
     .stage-wrap{padding:0}
-    .deck-frame{width:100%;height:100%;aspect-ratio:auto;max-height:none;border:0;border-radius:0;box-shadow:none}
-    .topbar .title{font-size:15px}
+    .deck-frame{border-radius:0;border-left:0;border-right:0}
+    .footer{padding:7px 10px calc(7px + env(safe-area-inset-bottom,0px))}
+    .narration p{font-size:12px}
+  }
+  /* ── Responsive: landscape short viewport — hide narration to keep controls reachable ── */
+  @media (max-height:460px) and (orientation:landscape){
+    .narration{display:none}
+    .footer{gap:4px;padding:4px 12px calc(4px + env(safe-area-inset-bottom,0px))}
+    .ctl.play{width:44px;height:44px;min-width:44px}
   }
 </style>
 </head>
 <body>
 <div class="topbar">
-  <a class="back" href="index.html">&larr; Examples</a>
+  <a class="logo-link" href="./" aria-label="Explain It — home"><img src="explain-it-logo.svg" alt="Explain It"></a>
+  <a class="back" href="./">&larr; Explore Examples</a>
+  <span class="sep">|</span>
   <div class="meta">
     <div class="kicker" id="cat"></div>
-    <div class="title" id="title">Loading…</div>
+    <div class="title" id="title">Loading&hellip;</div>
   </div>
 </div>
+
 <div class="stage-wrap">
   <div class="deck-frame">
     <iframe id="deck" title="Explain It deck" sandbox="allow-scripts"></iframe>
-    <div id="loading"><div class="spin"></div><p>Loading example…</p></div>
+    <span class="watermark">nebulacloud.studio</span>
+    <div id="loading"><div class="spin"></div><p>Loading example&hellip;</p></div>
     <div id="done">
       <div class="check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-      <h3>Explanation complete</h3>
-      <div class="sub" id="done-topic"></div>
+      <h3 id="done-topic">Explanation complete</h3>
+      <div class="summary" id="done-summary"></div>
       <div class="scenes" id="done-scenes"></div>
       <button class="replay" id="done-replay"><svg viewBox="0 0 24 24"><path d="M1 4v6h6"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>Replay</button>
     </div>
@@ -89,28 +144,107 @@
     </div>
   </div>
 </div>
-<div class="actionbar">
-  <button class="act" id="replay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 4v6h6"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>Replay</button>
+
+<div class="footer" id="footer">
+  <div class="narration"><p id="narration-text"></p></div>
+  <div class="progress-row">
+    <span class="label" id="scene-label">Scene 0/0</span>
+    <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+    <span class="time" id="elapsed">00:00</span>
+  </div>
+  <div class="controls">
+    <div class="spacer"></div>
+    <div class="primary">
+      <button class="ctl icon" id="prev" aria-label="Previous scene"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 20L9 12l10-8v16z"/><line x1="5" y1="19" x2="5" y2="5"/></svg></button>
+      <button class="ctl play" id="playpause" aria-label="Play"><svg id="pp-icon" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></button>
+      <button class="ctl icon" id="next" aria-label="Next scene"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4l10 8-10 8V4z"/><line x1="19" y1="5" x2="19" y2="19"/></svg></button>
+    </div>
+    <div class="secondary">
+      <button class="ctl icon-sm" id="mute" aria-label="Mute"><svg id="mute-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button>
+      <button class="ctl speed" id="speed" aria-label="Playback speed">1x</button>
+      <button class="ctl icon-sm" id="fs" aria-label="Fullscreen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8 3H5a2 2 0 0 0-2 2v3"/><path d="M21 8V5a2 2 0 0 0-2-2h-3"/><path d="M3 16v3a2 2 0 0 0 2 2h3"/><path d="M16 21h3a2 2 0 0 0 2-2v-3"/></svg></button>
+      <button class="ctl icon-sm" id="replay" aria-label="Replay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-4.65"/></svg></button>
+    </div>
+  </div>
+  <div class="disclaimer">AI-generated &middot; May contain inaccuracies</div>
 </div>
+
 <script>
 (function(){
+  var ICON_PLAY = '<polygon points="5 3 19 12 5 21 5 3"/>';
+  var ICON_PAUSE = '<rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>';
+  var ICON_UNMUTE = '<path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>';
+  var ICON_MUTE = '<path d="M11 5L6 9H2v6h4l5 4V5z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/>';
+
   var params = new URLSearchParams(location.search);
   var slug = (params.get('slug') || '').trim();
+
   var frame = document.getElementById('deck');
+  var stage = document.querySelector('.deck-frame');
   var loading = document.getElementById('loading');
   var errBox = document.getElementById('err');
   var doneBox = document.getElementById('done');
   var titleEl = document.getElementById('title');
   var catEl = document.getElementById('cat');
+  var narrationEl = document.getElementById('narration-text');
+  var sceneLabel = document.getElementById('scene-label');
+  var progressFill = document.getElementById('progress-fill');
+  var elapsedEl = document.getElementById('elapsed');
+  var ppBtn = document.getElementById('playpause');
+  var ppIcon = document.getElementById('pp-icon');
+  var muteBtn = document.getElementById('mute');
+  var muteIcon = document.getElementById('mute-icon');
+  var speedBtn = document.getElementById('speed');
+
+  var SPEEDS = [0.75, 1, 1.25, 1.5, 2];
+  var speedIdx = 1;
   var audioEls = [];
-  var current = 0;
-  var topic = '';
+  var narrations = [];
+  var current = 0;          // 0-indexed current scene
   var totalScenes = 0;
+  var topic = '';
+  var isPaused = false;
+  var isMuted = false;
+  var ready = false;
+  var elapsedMs = 0;
+  var elapsedTimer = null;
 
   function slugOk(s){ return /^[a-z0-9-]+$/.test(s); }
   function fail(msg){ loading.style.display='none'; frame.style.display='none'; document.getElementById('err-msg').textContent = msg; errBox.style.display='flex'; }
-  function cmd(action, payload){ try{ frame.contentWindow.postMessage({type:'deck:command',action:action,payload:payload},'*'); }catch(_){} }
+  function cmd(action, payload){ try{ frame.contentWindow.postMessage({type:'deck:command',action:action,payload:payload},'*'); }catch(_){ } }
   function stopAllAudio(){ audioEls.forEach(function(a){ if(a){ try{a.pause();a.currentTime=0;}catch(_){ } } }); }
+  function fmt(ms){ var s=Math.max(0,Math.floor(ms/1000)); var m=Math.floor(s/60); s=s%60; return (m<10?'0':'')+m+':'+(s<10?'0':'')+s; }
+
+  // Hide the deck's own in-iframe chrome so the EXTERNAL footer is the single control
+  // surface — mirrors the platform's prepareDeckHtml() injection (hideSubtitles + deckLayout).
+  // Also force the visual to fill the stage. No fonts needed (deck ships its own).
+  var CHROME_HIDE = '<style data-static-viewer-chrome>' +
+    '.kicker,.counter,.scene-title,.scene-nav,.nav-dots,.scene-indicator,.deck-nav,.progress,.progress-bar,.ctrl,.narration{display:none!important}' +
+    'html,body{margin:0!important;padding:0!important;overflow:hidden!important;background:#f4efe6!important}' +
+    '.stage{background:#f4efe6!important;border:none!important;border-radius:0!important;box-shadow:none!important;width:100%!important;max-width:100%!important;height:100%!important;max-height:100%!important;display:flex!important;flex-direction:column!important}' +
+    '.scene-wrap{padding:14px 16px 10px!important;display:flex!important;flex-direction:column!important;height:100%!important;overflow:hidden!important;align-items:center!important}' +
+    '.art{flex:1!important;min-height:0!important;width:100%!important;max-width:100%!important;display:flex!important;align-items:center!important;justify-content:center!important;overflow:hidden!important}' +
+    '.art svg{width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;object-fit:contain!important}' +
+    '</style>';
+
+  function injectChromeHide(html){
+    if (html.indexOf('</head>') !== -1) return html.replace('</head>', CHROME_HIDE + '</head>');
+    return CHROME_HIDE + html;
+  }
+
+  function updateNarration(){
+    var t = narrations[current] || '';
+    // narration may contain <b> keywords — render as HTML (text is from our own package)
+    narrationEl.innerHTML = t;
+  }
+  function updateProgress(){
+    sceneLabel.textContent = 'Scene ' + Math.min(current+1, totalScenes||1) + '/' + (totalScenes||1);
+    var pct = totalScenes>0 ? Math.round(((current+1)/totalScenes)*100) : 0;
+    progressFill.style.width = pct + '%';
+  }
+  function startClock(){ stopClock(); elapsedTimer = setInterval(function(){ if(!isPaused){ elapsedMs += 200*SPEEDS[speedIdx]; elapsedEl.textContent = fmt(elapsedMs); } }, 200); }
+  function stopClock(){ if(elapsedTimer){ clearInterval(elapsedTimer); elapsedTimer=null; } }
+  function setPaused(p){ isPaused=p; ppIcon.innerHTML = p ? ICON_PLAY : ICON_PAUSE; ppBtn.setAttribute('aria-label', p?'Play':'Pause'); }
 
   if (!slug){ fail('No example selected.'); return; }
   if (!slugOk(slug)){ fail('Invalid example id.'); return; }
@@ -124,35 +258,79 @@
     catEl.textContent = manifest.category || '';
     totalScenes = manifest.sceneCount || (manifest.scenes||[]).length || 0;
     document.getElementById('done-topic').textContent = topic;
+    document.getElementById('done-summary').innerHTML = (manifest.textSummary || manifest.summary || '').replace(/\*\*([^*]+)\*\*/g,'<b>$1</b>');
     document.getElementById('done-scenes').textContent = totalScenes ? (totalScenes + ' scenes completed') : '';
     (manifest.scenes || []).forEach(function(sc){
-      if (sc && sc.audioPath){ var a = new Audio(base + sc.audioPath); a.preload='none'; audioEls[sc.index]=a; }
+      if (!sc) return;
+      narrations[sc.index] = (sc.narration || '');
+      if (sc.audioPath){ var a = new Audio(base + sc.audioPath); a.preload='none'; audioEls[sc.index]=a; }
     });
+    updateProgress();
     return fetch(base + 'deck-content.html');
   }).then(function(r){ if(!r.ok) throw new Error('deck-content '+r.status); return r.text(); })
   .then(function(html){
     if (/https?:\/\/[^"']*(api\.nebulacloud|\/api\/v1)|\/share\//.test(html)) throw new Error('deck references a production endpoint');
-    frame.srcdoc = html;
+    frame.srcdoc = injectChromeHide(html);
   }).catch(function(e){ fail('Could not load this example (' + e.message + ').'); });
 
-  function doReplay(){ doneBox.style.display='none'; stopAllAudio(); current=0; cmd('goTo',1); cmd('play'); var a=audioEls[0]; if(a){ try{a.currentTime=0;a.play().catch(function(){});}catch(_){ } } }
+  // ── Controls ──
+  function playScene(idx){ var a=audioEls[idx]; if(a && !isMuted){ try{ a.currentTime=0; a.playbackRate=SPEEDS[speedIdx]; a.play().catch(function(){}); }catch(_){ } } }
+  function doPlayPause(){
+    if (isPaused){ setPaused(false); cmd('releaseTimer'); cmd('play'); var a=audioEls[current]; if(a && !isMuted){ try{ a.play().catch(function(){}); }catch(_){ } } }
+    else { setPaused(true); cmd('holdTimer'); cmd('pause'); var b=audioEls[current]; if(b){ try{ b.pause(); }catch(_){ } } }
+  }
+  function doReplay(){ doneBox.style.display='none'; stopAllAudio(); current=0; elapsedMs=0; elapsedEl.textContent='00:00'; setPaused(false); updateProgress(); updateNarration(); cmd('goTo',1); cmd('play'); playScene(0); }
+
+  document.getElementById('prev').addEventListener('click', function(){ cmd('prev'); });
+  document.getElementById('next').addEventListener('click', function(){ cmd('next'); });
+  ppBtn.addEventListener('click', doPlayPause);
   document.getElementById('replay').addEventListener('click', doReplay);
   document.getElementById('done-replay').addEventListener('click', doReplay);
+  muteBtn.addEventListener('click', function(){
+    isMuted = !isMuted;
+    muteIcon.innerHTML = isMuted ? ICON_MUTE : ICON_UNMUTE;
+    muteBtn.setAttribute('aria-label', isMuted?'Unmute':'Mute');
+    audioEls.forEach(function(a){ if(a) a.muted = isMuted; });
+    if (isMuted){ var a=audioEls[current]; if(a){ try{a.pause();}catch(_){ } } }
+    else if (!isPaused){ playScene(current); }
+  });
+  speedBtn.addEventListener('click', function(){
+    speedIdx = (speedIdx+1) % SPEEDS.length;
+    speedBtn.textContent = SPEEDS[speedIdx] + 'x';
+    cmd('setSpeed', SPEEDS[speedIdx]);
+    audioEls.forEach(function(a){ if(a){ try{ a.playbackRate = SPEEDS[speedIdx]; }catch(_){ } } });
+  });
+  document.getElementById('fs').addEventListener('click', function(){
+    if (document.fullscreenElement){ document.exitFullscreen(); }
+    else { (document.documentElement.requestFullscreen ? document.documentElement : document.body).requestFullscreen().catch(function(){}); }
+  });
 
+  // ── Deck protocol ──
   window.addEventListener('message', function(ev){
-    var d = ev.data; if (!d || typeof d !== 'object') return;
-    if (d.type === 'deck:ready'){ loading.style.display='none'; }
-    else if (d.type === 'deck:sceneChange'){
+    var d = ev.data; if (!d || typeof d !== 'object' || typeof d.type !== 'string') return;
+    if (d.type === 'deck:ready'){
+      ready = true; loading.style.display='none'; frame.classList.add('ready');
+      cmd('setMode','controlled');  // deck yields advance authority to this viewer
+      updateNarration(); updateProgress(); startClock();
+      // begin playback
+      setPaused(false); cmd('play'); playScene(0);
+    } else if (d.type === 'deck:sceneChange'){
       doneBox.style.display='none';
       var idx = (d.scene || 1) - 1;
+      if (d.total && d.total>0) totalScenes = d.total;
       if (audioEls[current]){ try{ audioEls[current].pause(); audioEls[current].currentTime=0; }catch(_){ } }
       current = idx;
-      var a = audioEls[idx]; if (a){ try{ a.play().catch(function(){}); }catch(_){ } }
+      updateNarration(); updateProgress();
+      if (!isPaused) playScene(idx);
     } else if (d.type === 'deck:complete'){
       if (audioEls[current]){ try{ audioEls[current].pause(); }catch(_){ } }
+      setPaused(true); stopClock();
       doneBox.style.display='flex';
     }
   });
+
+  // Force-ready fallback if the deck never emits deck:ready (older standalone decks)
+  setTimeout(function(){ if(!ready){ loading.style.display='none'; frame.classList.add('ready'); updateNarration(); updateProgress(); startClock(); } }, 1800);
 })();
 </script>
 </body>

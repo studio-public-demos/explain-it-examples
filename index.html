@@ -8,6 +8,14 @@
 <meta property="og:title" content="Explain It — Interactive Visual Explainers · Nebula Cloud Studio">
 <meta property="og:description" content="Interactive, narrated visual explainers. 2D animated available now, 3D animated coming soon.">
 <meta property="og:type" content="website">
+<meta property="og:image" content="assets/brand/open-graph.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Spline+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -25,12 +33,17 @@
   }
   html{scroll-behavior:smooth}
   body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  /* Decorative Three.js wireframe background (reused from nebulacloud.studio). Behind all content,
+     non-interactive, enhancement-only — site is fully functional if it never loads. */
+  #bg3d{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;border:0;display:block}
+  header.site, .controls, main, .cta-band, footer.site, .hero{position:relative;z-index:1}
   a{color:inherit;text-decoration:none}
   .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
 
   header.site{position:sticky;top:0;z-index:20;background:rgba(248,250,255,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--border-soft)}
   header.site .wrap{display:flex;align-items:center;justify-content:space-between;height:66px}
   .brand{display:flex;align-items:center;gap:10px;font-weight:600}
+  .brand .logo{height:34px;width:auto;display:block}
   .brand .mark{width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,var(--blue),#00aeef);display:flex;align-items:center;justify-content:center;color:#fff;font-size:14px}
   .brand .name{font-size:15px}
   .brand .name .sub{color:var(--gray-lt);font-weight:400}
@@ -104,24 +117,37 @@
   .cta-band a{display:inline-block;background:var(--blue);color:#fff;padding:12px 28px;border-radius:100px;font-weight:600;transition:transform .15s,box-shadow .15s}
   .cta-band a:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(45,122,255,.4)}
 
-  footer.site{border-top:1px solid var(--border-soft);padding:34px 0;text-align:center;color:var(--gray-lt);font-size:13px}
-  footer.site .flinks{display:flex;gap:22px;justify-content:center;flex-wrap:wrap;margin-bottom:12px}
+  footer.site{border-top:1px solid var(--border-soft);padding:40px 0 32px;color:var(--gray-lt);font-size:13px}
+  footer.site .ftop{display:flex;align-items:flex-start;justify-content:space-between;gap:28px;flex-wrap:wrap;margin-bottom:26px}
+  footer.site .fbrand{display:flex;align-items:center;gap:10px;font-weight:600;color:var(--navy)}
+  footer.site .fbrand .mark{width:26px;height:26px;border-radius:7px;background:linear-gradient(135deg,var(--blue),#00aeef);display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px}
+  footer.site .flinks{display:flex;gap:22px;flex-wrap:wrap}
   footer.site a{color:var(--gray);transition:color .15s}
   footer.site a:hover{color:var(--navy)}
+  footer.site .fsocial{display:flex;gap:10px;align-items:center}
+  footer.site .fsocial a{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:10px;border:1px solid var(--border);color:var(--gray);transition:all .15s}
+  footer.site .fsocial a:hover{border-color:rgba(45,122,255,.4);color:var(--blue);background:var(--blue-dim)}
+  footer.site .fsocial a svg{width:18px;height:18px}
+  footer.site .fbottom{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;border-top:1px solid var(--border-soft);padding-top:20px}
   @media(max-width:640px){
     .hero{padding:40px 0 20px}.controls{top:58px}header.site .wrap{height:58px}
     .header-cta a.link{display:none}
+    .brand .logo{height:28px}
     .grid,.grid.featured{grid-template-columns:1fr}
     .cta-band .inner{padding:32px 20px}
+    footer.site .ftop{flex-direction:column;gap:22px}
+    footer.site .fbottom{flex-direction:column;align-items:flex-start;gap:10px}
   }
 </style>
 </head>
 <body>
+<canvas id="bg3d" aria-hidden="true"></canvas>
 <header class="site">
   <div class="wrap">
-    <a class="brand" href="/explain-it-examples/">
-      <span class="mark">✦</span>
-      <span class="name">Explain It <span class="sub">· Nebula Cloud Studio</span></span>
+    <a class="brand" href="./" aria-label="Explain It — home">
+      <img class="logo" src="assets/brand/header-600w.png"
+           srcset="assets/brand/header-400w.png 400w, assets/brand/header-600w.png 600w, assets/brand/header-800w.png 800w"
+           sizes="(max-width:640px) 150px, 190px" alt="Explain It" width="190" height="54">
     </a>
     <div class="header-cta">
       <a class="link" href="https://nebulacloud.studio" target="_blank" rel="noopener">Studio ↗</a>
@@ -176,12 +202,34 @@
 
 <footer class="site">
   <div class="wrap">
-    <div class="flinks">
-      <a href="https://nebulacloud.studio" target="_blank" rel="noopener">Nebula Cloud Studio</a>
-      <a href="https://app.nebulacloud.studio/auth/sign-in" target="_blank" rel="noopener">Sign In</a>
-      <a href="https://app.nebulacloud.studio/auth/sign-up" target="_blank" rel="noopener">Get Started</a>
+    <div class="ftop">
+      <div class="fbrand"><img src="assets/brand/header-400w.png" alt="Explain It" style="height:30px;width:auto;display:block"></div>
+      <div class="flinks">
+        <a href="./">Explore Examples</a>
+        <a href="https://app.nebulacloud.studio/auth/sign-up" target="_blank" rel="noopener">Create your own</a>
+        <a href="https://app.nebulacloud.studio/auth/sign-in" target="_blank" rel="noopener">Sign in</a>
+        <a href="https://nebulacloud.studio" target="_blank" rel="noopener">Nebula Cloud</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+      <!--
+        SOCIAL LINKS — Nebula Cloud Academy (identity: nebulacloud.academy).
+        Only verified destinations are rendered. Specific platform handles
+        (Instagram / LinkedIn / X / YouTube) are NOT hard-coded here because they
+        could not be verified at build time — per directive, no fabricated URLs.
+        When operator supplies verified handles, add <a> entries inside .fsocial
+        with matching aria-label + visible icon; keep the 40x40 touch target.
+      -->
+      <div class="fsocial" id="fsocial">
+        <a href="https://nebulacloud.academy" target="_blank" rel="noopener" aria-label="Nebula Cloud Academy" title="Nebula Cloud Academy">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        </a>
+      </div>
     </div>
-    <div>Explain It · Do It · Vibe Code — creative experiences in Nebula Cloud Studio</div>
+    <div class="fbottom">
+      <div>Explain It by Nebula Cloud</div>
+      <div>2D animated available now · 3D animated coming soon</div>
+    </div>
   </div>
 </footer>
 
@@ -285,6 +333,73 @@ async function init(){
   document.getElementById('search').addEventListener('input', e=>{query=e.target.value;render();});
 }
 init();
+</script>
+
+<!-- Decorative wireframe background — vendored Three.js (local, no CDN). Reuses the
+     nebulacloud.studio section-background effect. Enhancement only: the page is fully
+     functional if this script or WebGL fails. Disabled on mobile and for reduced-motion. -->
+<script src="assets/vendor/three.min.js"></script>
+<script>
+(function(){
+  try{
+    var canvas = document.getElementById('bg3d');
+    if(!canvas) return;
+    if(!window.THREE) return;                                   // vendored runtime missing -> fail open
+    if(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    if(window.innerWidth <= 768) return;                         // existing Studio mobile safeguard
+
+    var renderer;
+    try{
+      renderer = new THREE.WebGLRenderer({canvas:canvas, alpha:true, antialias:false, powerPreference:'low-power'});
+    }catch(e){ return; }                                         // no WebGL -> fail open, page unaffected
+
+    var W = window.innerWidth, H = window.innerHeight;
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio||1, 1.2));
+    renderer.setSize(W, H, false);
+
+    var scene = new THREE.Scene();
+    var cam = new THREE.PerspectiveCamera(55, W/H, 0.1, 200);
+    cam.position.z = 5;
+
+    // Explain It palette (Explain Cyan) on the light paper surface — low opacity, matches Studio character.
+    var C = 0x0096FB, op = 0.06;
+    var mat  = new THREE.MeshBasicMaterial({color:C, wireframe:true, transparent:true, opacity:op});
+    var matB = new THREE.MeshBasicMaterial({color:C, wireframe:true, transparent:true, opacity:op*0.5});
+    var objects = [];
+    var m = new THREE.Mesh(new THREE.IcosahedronGeometry(2.2,1), mat);
+    m.position.set(W>900?3.5:2, 0, 0); scene.add(m); objects.push([m,0.04,0.07,0]);
+    var m2 = new THREE.Mesh(new THREE.IcosahedronGeometry(1.1,1), matB);
+    m2.position.set(W>900?-3.5:-2.5, 1, -1); scene.add(m2); objects.push([m2,-0.06,0.04,Math.PI/3]);
+
+    var clock = new THREE.Clock(), raf = null, running = false;
+    function loop(){
+      raf = requestAnimationFrame(loop);
+      var t = clock.getElapsedTime();
+      objects.forEach(function(o){ o[0].rotation.x = o[3] + t*o[1]; o[0].rotation.y = t*o[2]; });
+      renderer.render(scene, cam);
+    }
+    function start(){ if(running) return; running = true; clock.start(); loop(); }
+    function stop(){ running = false; if(raf) cancelAnimationFrame(raf); raf = null; clock.stop(); }
+
+    // Pause when the tab/page is hidden (perf + battery)
+    document.addEventListener('visibilitychange', function(){ if(document.hidden) stop(); else start(); });
+
+    var rt;
+    window.addEventListener('resize', function(){
+      clearTimeout(rt);
+      rt = setTimeout(function(){
+        W = window.innerWidth; H = window.innerHeight;
+        if(W <= 768){ stop(); canvas.style.display='none'; return; }
+        canvas.style.display='block';
+        cam.aspect = W/H; cam.updateProjectionMatrix();
+        renderer.setSize(W, H, false);
+        if(!running) start();
+      }, 200);
+    });
+
+    start();
+  }catch(e){ /* enhancement only — never surface background errors */ }
+})();
 </script>
 </body>
 </html>
