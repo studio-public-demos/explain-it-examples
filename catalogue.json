@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "version": "2.0",
+    "version": "2.1",
     "product": "Explain It",
     "source": "nebula-curated",
-    "last_updated": "2026-09-22",
+    "last_updated": "2026-10-04",
     "total_examples": 54,
     "categories": [
       "Science",
@@ -13,14 +13,15 @@
       "Earth & Geospatial",
       "Business & Finance",
       "Biology & Life Sciences",
-      "Technology",
-      "Education",
       "Everyday Concepts",
-      "Other"
+      "Education"
     ],
-    "viewer": "canonical-share",
-    "listed_examples": 18,
-    "unlisted_examples": 36
+    "viewer": "static-deck",
+    "listed_examples": 16,
+    "unlisted_examples": 38,
+    "shareUrlRole": "provenance-only",
+    "staticDecksReady": false,
+    "staticDeckBodiesPresent": 0
   },
   "examples": [
     {
@@ -316,7 +317,7 @@
       "slug": "ai-for-nbfcs-enhancing-operations-and-risk-management",
       "title": "AI for NBFCs: Enhancing Operations and Risk Management",
       "category": "AI & Computing",
-      "summary": "NBFC Challenges &amp; AI Opportunity",
+      "summary": "NBFC Challenges & AI Opportunity",
       "tags": [],
       "level": "Intermediate",
       "sceneCount": 13,
@@ -399,7 +400,7 @@
     },
     {
       "slug": "computational-fluid-dynamics-cfd-2",
-      "title": "Computational Fluid Dynamics (CFD)",
+      "title": "Computational Fluid Dynamics (CFD): Core Concepts",
       "category": "Engineering",
       "summary": "Unlocking Fluid Secrets with CFD",
       "tags": [],
@@ -412,12 +413,12 @@
       "shareUrl": "https://app.nebulacloud.studio/share/gWjewOAyguV1",
       "publishedAt": "2026-09-16",
       "createdAt": "2026-09-16",
-      "listed": true
+      "listed": false
     },
     {
       "slug": "what-are-the-main-types-of-cctv-cameras",
       "title": "What are the main types of CCTV cameras?",
-      "category": "Technology",
+      "category": "Engineering",
       "summary": "CCTV: Eyes Everywhere",
       "tags": [],
       "level": "Intermediate",
@@ -535,7 +536,7 @@
     },
     {
       "slug": "tell-me-about-tectonic-plats",
-      "title": "tell me about tectonic plats",
+      "title": "Tectonic Plates: Earth's Shifting Skin",
       "category": "Earth & Geospatial",
       "summary": "Earth's Shifting Skin",
       "tags": [],
@@ -548,7 +549,7 @@
       "shareUrl": "https://app.nebulacloud.studio/share/SfIYk7UI-Ej2",
       "publishedAt": "2026-07-16",
       "createdAt": "2026-07-16",
-      "listed": true
+      "listed": false
     },
     {
       "slug": "airflow-simulation-in-aerospace-designing-the-future-of-flig",
@@ -570,7 +571,7 @@
     {
       "slug": "k-pg-extinction-asteroid-impact-and-global-catastrophe",
       "title": "K-Pg Extinction: Asteroid Impact & Global Catastrophe",
-      "category": "Business & Finance",
+      "category": "Science",
       "summary": "The Great Extinction Trigger",
       "tags": [],
       "level": "Intermediate",
@@ -722,9 +723,9 @@
     },
     {
       "slug": "can-lem-and-fem-be-used-together-in-a-complementar",
-      "title": "Can LEM and FEM be used together in a complementar...",
+      "title": "Can LEM and FEM Be Used Together Complementarily?",
       "category": "Engineering",
-      "summary": "Bridging Continuous &amp; Discrete Models",
+      "summary": "Bridging Continuous & Discrete Models",
       "tags": [],
       "level": "Intermediate",
       "sceneCount": 13,
@@ -741,7 +742,7 @@
       "slug": "cfd-simulated-chemical-reactions-real-world-impact",
       "title": "CFD-Simulated Chemical Reactions: Real-World Impact",
       "category": "Engineering",
-      "summary": "CFD &amp; Chemical Reactions: Why It Matters",
+      "summary": "CFD & Chemical Reactions: Why It Matters",
       "tags": [],
       "level": "Intermediate",
       "sceneCount": 5,
@@ -858,7 +859,7 @@
     },
     {
       "slug": "are-there-emerging-materials-that-could-revolution",
-      "title": "Are there emerging materials that could revolution...",
+      "title": "Emerging Materials That Could Revolutionize Drone Design",
       "category": "Engineering",
       "summary": "Drones: Lighter, Stronger, Smarter",
       "tags": [],
@@ -909,7 +910,7 @@
     },
     {
       "slug": "how-do-autonomous-vehicles-handle-terrain-predicti",
-      "title": "How do autonomous vehicles handle terrain predicti...",
+      "title": "How Autonomous Vehicles Handle Terrain Prediction",
       "category": "Earth & Geospatial",
       "summary": "Navigating Unseen Paths",
       "tags": [],
