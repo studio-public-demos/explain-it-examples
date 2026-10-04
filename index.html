@@ -246,7 +246,8 @@ let query = '';
 function fmtDuration(sec){ if(!sec) return ''; const m=Math.floor(sec/60),s=sec%60; return m+':'+String(s).padStart(2,'0'); }
 // Every card links to the LOCAL static deck viewer (self-contained deck-content.html;
 // no production share-token / API dependency). shareUrl remains provenance-only in catalogue.json.
-function deckUrl(item){ return item.slug ? ('deck.html?slug=' + encodeURIComponent(item.slug)) : '#'; }
+// Every card links to the canonical Studio share page (the real deck + real DeckRenderer).
+function deckUrl(item){ return item.shareUrl || '#'; }
 function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 
 function cardHtml(item){
@@ -258,7 +259,7 @@ function cardHtml(item){
   const play = '<span class="play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>';
   const level = item.level ? '<span class="chip level">'+esc(item.level)+'</span>' : '';
   const scenes = item.sceneCount ? '<span class="chip">'+item.sceneCount+' scenes</span>' : '';
-  return '<a class="card" href="'+esc(deckUrl(item))+'" rel="noopener">'
+  return '<a class="card" href="'+esc(deckUrl(item))+'" target="_blank" rel="noopener">'
     + '<div class="thumb">'+thumb+fallback+play+dur+'</div>'
     + '<div class="body"><div class="cat-label">'+esc(item.category)+'</div>'
     + '<h3>'+esc(item.title)+'</h3>'
