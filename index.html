@@ -48,6 +48,31 @@
   .brand .name{font-size:15px}
   .brand .name .sub{color:var(--gray-lt);font-weight:400}
   .header-cta{display:flex;align-items:center;gap:16px}
+  /* INC header nav — center primary nav (desktop), reuses existing anchors. */
+  .header-nav{display:flex;align-items:center;gap:26px;position:absolute;left:50%;transform:translateX(-50%)}
+  .header-nav a,.header-nav .nav-soon{font-size:14px;font-weight:500;color:var(--gray);text-decoration:none;transition:color .15s;white-space:nowrap}
+  .header-nav a:hover{color:var(--navy)}
+  .nav-soon{display:inline-flex;align-items:center;gap:6px;color:var(--gray-lt);cursor:default}
+  .soon-badge{font-size:10px;font-weight:600;letter-spacing:.3px;text-transform:uppercase;color:var(--blue);background:var(--blue-dim);border:1px solid rgba(45,122,255,.25);border-radius:100px;padding:1px 7px;line-height:1.5}
+  .nav-toggle{display:none;align-items:center;justify-content:center;width:40px;height:40px;border:1px solid var(--border);border-radius:10px;background:transparent;color:var(--navy);cursor:pointer}
+  .nav-toggle svg{width:20px;height:20px}
+  .mobile-menu{display:none}
+  .mobile-menu[hidden]{display:none}
+  /* Tablet: drop the centered nav before it crowds the logo/actions; keep actions inline. */
+  @media(max-width:900px){
+    .header-nav{display:none}
+  }
+  /* Mobile: hamburger + slide-down panel. */
+  @media(max-width:640px){
+    .header-cta{display:none}
+    .nav-toggle{display:inline-flex}
+    .mobile-menu:not([hidden]){display:flex;flex-direction:column;gap:4px;padding:12px 20px 18px;border-top:1px solid var(--border-soft);background:rgba(248,250,255,.98);backdrop-filter:blur(12px)}
+    .mobile-menu a,.mobile-menu .nav-soon{display:flex;align-items:center;gap:8px;min-height:44px;font-size:15px;font-weight:500;color:var(--navy);text-decoration:none;border-radius:10px;padding:0 10px}
+    .mobile-menu a:hover{background:var(--blue-dim)}
+    .mobile-menu a.btn{justify-content:center;background:var(--blue);color:#fff;margin-top:6px}
+    .mobile-menu a.link{color:var(--navy)}
+    .mobile-menu .nav-soon{color:var(--gray-lt)}
+  }
   .header-cta a.link{font-size:14px;color:var(--gray);transition:color .15s}
   .header-cta a.link:hover{color:var(--navy)}
   .header-cta a.btn{background:var(--navy);color:#fff;padding:9px 18px;border-radius:100px;font-size:14px;font-weight:500;transition:transform .15s,box-shadow .15s}
@@ -164,11 +189,38 @@
            srcset="assets/brand/header-400w.png 400w, assets/brand/header-600w.png 600w, assets/brand/header-800w.png 800w"
            sizes="(max-width:640px) 150px, 190px" alt="Explain It" width="190" height="54">
     </a>
+
+    <!-- Center nav (desktop) — reuses existing on-page section anchors: #content (gallery),
+         #how (hero/how-it-works), #cats (category filter). 3D is informational-only. -->
+    <nav class="header-nav" aria-label="Primary">
+      <a href="#content">Examples</a>
+      <a href="#how">How it works</a>
+      <a href="#cats">Categories</a>
+      <span class="nav-soon" aria-disabled="true" title="3D explainers — coming soon">
+        3D<span class="soon-badge">Soon</span>
+      </span>
+    </nav>
+
+    <!-- Right actions (desktop) -->
     <div class="header-cta">
-      <a class="link" href="https://nebulacloud.studio" target="_blank" rel="noopener">Studio ↗</a>
-      <a class="link" href="https://app.nebulacloud.studio/auth/sign-in" target="_blank" rel="noopener">Sign In</a>
-      <a class="btn" href="https://app.nebulacloud.studio/auth/sign-up" target="_blank" rel="noopener">Get Started →</a>
+      <a class="link" href="https://app.nebulacloud.studio/auth/sign-in" target="_blank" rel="noopener">Sign in</a>
+      <a class="btn" href="https://app.nebulacloud.studio/auth/sign-up" target="_blank" rel="noopener">Create your own</a>
     </div>
+
+    <!-- Mobile hamburger (hidden on desktop) -->
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+
+  <!-- Mobile menu panel (hidden on desktop; toggled by #navToggle) -->
+  <div class="mobile-menu" id="mobileMenu" hidden>
+    <a href="#content" data-nav-close>Examples</a>
+    <a href="#how" data-nav-close>How it works</a>
+    <a href="#cats" data-nav-close>Categories</a>
+    <span class="nav-soon" aria-disabled="true">3D<span class="soon-badge">Coming soon</span></span>
+    <a class="link" href="https://app.nebulacloud.studio/auth/sign-in" target="_blank" rel="noopener" data-nav-close>Sign in</a>
+    <a class="btn" href="https://app.nebulacloud.studio/auth/sign-up" target="_blank" rel="noopener" data-nav-close>Create your own</a>
   </div>
 </header>
 
@@ -449,6 +501,24 @@ init();
     start();
   }catch(e){ /* enhancement only — never surface background errors */ }
 })();
+</script>
+<script>
+  /* Header mobile-nav toggle (INC header nav). Self-contained; progressive-enhancement. */
+  (function(){
+    var btn = document.getElementById('navToggle');
+    var menu = document.getElementById('mobileMenu');
+    if(!btn || !menu) return;
+    function setOpen(open){
+      menu.hidden = !open;
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    }
+    btn.addEventListener('click', function(){ setOpen(menu.hidden); });
+    // Close after selecting any anchor/action.
+    menu.querySelectorAll('[data-nav-close]').forEach(function(el){
+      el.addEventListener('click', function(){ setOpen(false); });
+    });
+  })();
 </script>
 </body>
 </html>
